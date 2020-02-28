@@ -17,3 +17,25 @@
     left: -@fa-li-width + (4em / 14);
   }
 }
+
+.@{fa-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: @fa-li-width;
+  list-style-type: none;
+
+  >li {
+    position: relative;
+  }
+}
+
+.@{fab-css-prefix}-li {
+  position: absolute;
+  left: -@fab-li-width;
+  width: @fab-li-width;
+  top: (2em / 14);
+  text-align: center;
+
+  &.@{fab-css-prefix}-lg {
+    left: -@fab-li-width + (4em / 14);
+  }
+}
