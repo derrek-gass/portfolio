@@ -45,7 +45,7 @@
       {
         "name":"discord",
         "url": "http://discordapp.com/channels/@me/DK#4438/",
-        "className":"fa fa-discord"
+        "className":"fab fa-discord"
       }
     ]
   },
