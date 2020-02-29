@@ -42,38 +42,55 @@
                 "className": "fa fa-github"
             },
             {
-                "name": "discord",
-                "url": "http://discordapp.com/channels/@me/DK#4438/",
+                "name": "skype",
+                "url": "https://join.skype.com/invite/AH74FtDq6gha",
                 "className": "fa fa-discord"
+            },
+            {
+                "name": "E-Mail",
+                "url": "mailto:dwgass@gmail.com",
+                "className": "fa fa-envelope"
             }
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "skillmessage": "",
         "education": [{
-                "school": "University?",
-                "degree": "Masters in Beer tasting",
-                "graduated": "April 2007",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "school": "California State University -- Sacramento",
+                "degree": "B.S. Computer Science & Engineering",
+                "graduated": "January 2020",
+                "description": "I learned everything from mathematics and statistics to OOP & programming concepts"
             },
             {
-                "school": "School #1 Maybe College?",
-                "degree": "What did you study 101",
-                "graduated": "March 2003",
+                "school": "Sacramento City College",
+                "degree": "A.A. ",
+                "graduated": "June 2017",
                 "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
             }
         ],
         "work": [{
-                "company": "Awesome Design Studio",
-                "title": "Senior UX God ",
-                "years": "March 2010 - Present",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "company": "Flashpoint Learning",
+                "title": "Software Engineer Intern",
+                "years": "January 2019 - December 2019",
+                "description": "Working with a team of six other software developers with SCRUM methodology, I managed the front-end development and integration of a full-stack, progressive web application built with React.js, Node.js, Spring Boot, and deployed with Amazon Web Services. I Developed End to End test automation with Selenium in support of our CI / CD pipeline. I also maintained our product backlog and repository, scheduling and assignment of tasks, and arranged bi - monthly code reviews and client meetings, to render a contract from SRS to shippable product."
             },
             {
-                "company": "Super Cool Studio",
-                "title": "Junior bug fixer",
-                "years": "March 2007 - February 2010",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "company": "Digital Systems Project Management",
+                "title": "Development Team Leader",
+                "years": "June 2018 - August 2018",
+                "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
+            },
+            {
+                "company": "Hi.Delivery",
+                "title": "Junior Front-End Developer",
+                "years": "April 2018 - August 2018",
+                "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
+            },
+            {
+                "company": "Green Heart Club",
+                "title": "Sales Lead & Dispatch Coordinator",
+                "years": "July 2016 - January 2018",
+                "description": "I worked in inventory management for a medical supply service to ensure sufficient support of core business goals while enhancing customer satisfaction through quality interaction and efficiency. I also managed sales calls and coordinated successful dispatch of supply shipments through our distribution network"
             }
         ],
         "skills": [{
@@ -108,44 +125,25 @@
     },
     "portfolio": {
         "projects": [{
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "canadian-wanderlust.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "fury-fighting-gear.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "original-thai-food.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Resume Website",
-                "category": "A React based resume website template",
-                "image": "resume-website.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "smirkspace.jpg",
-                "url": "http://www.smirkspace.com"
+                "title": "LearnJS",
+                "category": "A serverless quiz app",
+                "image": "learnjs.jpg",
+                "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
+            }, {
+                "title": "Homeless Population - Explored with D3.js",
+                "category": "Interactive Exploration of Homelessness by state",
+                "image": "d3-homeless.jpg",
+                "url": "https://derrek-gass.github.io/homeless-map/"
             }
         ]
     },
     "testimonials": {
         "testimonials": [{
-                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-                "user": "Kareem Abdul Jabbar"
+                "text": "Derrek is highly intelligent with a great eye for detail and understanding of not just the part of a project he is working on, but how that part fits together and integrates with the project as a whole. He is very knowledgeable when it comes to systems design, and optimization and understands how to work well as a part of a team.",
+                "user": "Alex Gonzalez"
             },
             {
-                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "text": "That Derrek must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
                 "user": "Steve Wozniak... impersonator"
             }
         ]
