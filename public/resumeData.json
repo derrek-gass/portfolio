@@ -115,9 +115,6 @@
             "name": "C++",
             "level": "65%"
         }, {
-            "name": "C",
-            "level": "62%"
-        }, {
             "name": "JavaScript",
             "level": "72%"
         }, {
@@ -127,26 +124,11 @@
             "name": "React",
             "level": "65%"
         }, {
-            "name": "Node.js",
-            "level": "54%"
-        }, {
-            "name": "jQuery",
-            "level": "38%"
-        }, {
             "name": "HTML",
             "level": "80%"
         }, {
             "name": "CSS",
             "level": "60%"
-        }, {
-            "name": "PHP",
-            "level": "45%"
-        }, {
-            "name": "Rails",
-            "level": "40%"
-        }, {
-            "name": "Rust",
-            "level": "66.6%"
         }]
     },
     "portfolio": {
