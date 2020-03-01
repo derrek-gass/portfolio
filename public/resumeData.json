@@ -2,10 +2,10 @@
     "main": {
         "name": "Derrek Gass",
         "occupation": "Full Stack Web Developer",
-        "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+        "description": "From the Front-End to the Back-End, and from planning to production, I LOVE everything about software development",
         "image": "profilepic.jpg",
-        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-        "contactmessage": "Feel free to get in touch with me. I'd love to discuss opportunities.",
+        "bio": "I'm currently experimenting with Cloud Native applications, serverless architecture, Web Assembly, Rust, and React.  Among other things, I like producing experimental electronic dance music, building synthesizers & other music tools, painting & sketching new designs, skateboarding faster than is reasonable, bottling, and spinning things on fire.",
+        "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunitiy to work together.",
         "email": "dwgass@gmail.com",
         "phone": "916-690-7701",
         "address": {
@@ -63,9 +63,21 @@
             },
             {
                 "school": "Sacramento City College",
-                "degree": "A.A. ",
+                "degree": "A.A. Social Sciences",
                 "graduated": "June 2017",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "description": ""
+            },
+            {
+                "school": "Sacramento City College",
+                "degree": "A.A. Interdisciplinary Studies: Social & Behaviorial Sciences",
+                "graduated": "June 2017",
+                "description": ""
+            },
+            {
+                "school": "Sacramento City College",
+                "degree": "A.A. Interdisciplinary Studies: Arts & Humanities",
+                "graduated": "June 2017",
+                "description": ""
             }
         ],
         "work": [{
@@ -90,52 +102,65 @@
                 "company": "Green Heart Club",
                 "title": "Sales Lead & Dispatch Coordinator",
                 "years": "July 2016 - January 2018",
-                "description": "I worked in inventory management for a medical supply service to ensure sufficient support of core business goals while enhancing customer satisfaction through quality interaction and efficiency. I also managed sales calls and coordinated successful dispatch of supply shipments through our distribution network"
+                "description": "I worked in inventory management for a medical supply service to ensure sufficient support of core business goals while enhancing customer satisfaction through quality interaction and efficiency. I also managed sales calls and coordinated successful dispatch of supply shipments through our distribution network."
             }
         ],
         "skills": [{
-                "name": "Git",
-                "level": "60%"
-            },
-            {
-                "name": "Illustrator",
-                "level": "55%"
-            },
-            {
-                "name": "ReactJs",
-                "level": "50%"
-            },
-            {
-                "name": "CSS",
-                "level": "90%"
-            },
-            {
-                "name": "HTML5",
-                "level": "80%"
-            },
-            {
-                "name": "VueJs",
-                "level": "50%"
-            },
-            {
-                "name": "MongoDB",
-                "level": "80%"
-            }
-        ]
+            "name": "Java",
+            "level": "75%"
+        }, {
+            "name": "Python",
+            "level": "69%"
+        }, {
+            "name": "C++",
+            "level": "65%"
+        }, {
+            "name": "C",
+            "level": "62%"
+        }, {
+            "name": "JavaScript",
+            "level": "72%"
+        }, {
+            "name": "Angular",
+            "level": "58%"
+        }, {
+            "name": "React",
+            "level": "65%"
+        }, {
+            "name": "Node.js",
+            "level": "54%"
+        }, {
+            "name": "jQuery",
+            "level": "38%"
+        }, {
+            "name": "HTML",
+            "level": "80%"
+        }, {
+            "name": "CSS",
+            "level": "60%"
+        }, {
+            "name": "PHP",
+            "level": "45%"
+        }, {
+            "name": "Rails",
+            "level": "40%"
+        }, {
+            "name": "Rust",
+            "level": "66.6%"
+        }]
     },
     "portfolio": {
         "projects": [{
-                "title": "LearnJS",
-                "category": "A serverless quiz app",
-                "image": "learnjs.jpg",
-                "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
-            }, {
-                "title": "Homeless Population - Explored with D3.js",
-                "category": "Interactive Exploration of Homelessness by state",
-                "image": "d3-homeless.jpg",
-                "url": "https://derrek-gass.github.io/homeless-map/"
-            }
-        ]
+            "title": "LearnJS",
+            "category": "A serverless quiz app",
+            "image": "learnjs.jpg",
+            "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
+        }, {
+            "title": "Homeless Population - Explored with D3.js",
+            "category": "Interactive Exploration of Homelessness by state",
+            "image": "d3-homeless.jpg",
+            "url": "https://derrek-gass.github.io/homeless-map/"
+        }]
     },
     "testimonials": {
         "testimonials": [{
