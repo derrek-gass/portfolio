@@ -15,6 +15,7 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   x. Badges Section
 
 ===================================================================== */
 
@@ -238,7 +239,6 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
@@ -289,11 +289,12 @@ ul#nav li.current a { color: #F06000; }
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+   margin-top: 36px;
    list-style: none;
+
 }
 .bars li {
    position: relative;
@@ -315,7 +316,6 @@ ul#nav li.current a { color: #F06000; }
    position: absolute;
    left: 0;
    top: 0;
-
    margin: 0;
    padding-right: 24px;
   	background: #313131;
@@ -1009,3 +1009,140 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* ------------------------------------------------------------------ */
+/* X. Badges Section
+/* ------------------------------------------------------------------ */
+
+#badges {
+   background: #fff;
+   padding-bottom: 48px;
+}
+
+#badges h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#badges h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+#badges h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#badges .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+
+
+#badges .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#badges .header-col {
+   padding-top: 9px;
+}
+
+#badges .main-col {
+   padding-right: 10%;
+}
+
+.toolbox {
+   padding-top: 48px;
+   border-top: 1px solid #E8E8E8;
+}
+
+/* badges Content */
+#badges-wrapper .columns {
+   margin-bottom: 36px;
+   margin-top: 36px;
+}
+
+.badges-item .item-wrap {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+.badges-item .item-wrap a {
+   display: block;
+   cursor: pointer;
+}
+
+/* overlay */
+.badges-item .item-wrap .overlay {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+
+   opacity: 0;
+   -moz-opacity: 0;
+   filter: alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+   -moz-transition: opacity 0.3s ease-in-out;
+   -o-transition: opacity 0.3s ease-in-out;
+   transition: opacity 0.3s ease-in-out;
+
+   background: url(../images/overlay-bg.png) repeat;
+}
+
+.badges-item .item-wrap .link-icon {
+   display: block;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+
+   opacity: 0;
+   -moz-opacity: 0;
+   filter: alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+   -moz-transition: opacity 0.3s ease-in-out;
+   -o-transition: opacity 0.3s ease-in-out;
+   transition: opacity 0.3s ease-in-out;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -15px;
+   margin-top: -15px;
+}
+
+.badges-item .item-wrap img {
+   vertical-align: bottom;
+}
+
+.badges-item .badges-item-meta {
+   padding: 18px;
+}
+
+.badges-item .badges-item-meta h5 {
+   font: 14px/21px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+
+.badges-item .badges-item-meta p {
+   font: 12px/18px 'opensans-light', sans-serif;
+   color: #c6c7c7;
+   padding-bottom: 9px;
+}
+

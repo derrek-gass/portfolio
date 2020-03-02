@@ -106,29 +106,17 @@
             }
         ],
         "skills": [{
-            "name": "Java",
+            "name": "Data Structures",
             "level": "75%"
         }, {
-            "name": "Python",
+            "name": "Algorithms",
             "level": "69%"
         }, {
-            "name": "C++",
+            "name": "System Architecture",
             "level": "65%"
         }, {
-            "name": "JavaScript",
+            "name": "UI/UX",
             "level": "72%"
-        }, {
-            "name": "Angular",
-            "level": "58%"
-        }, {
-            "name": "React",
-            "level": "65%"
-        }, {
-            "name": "HTML",
-            "level": "80%"
-        }, {
-            "name": "CSS",
-            "level": "60%"
         }]
     },
     "portfolio": {
@@ -142,6 +130,18 @@
             "category": "Interactive Exploration of Homelessness by state",
             "image": "d3-homeless.jpg",
             "url": "https://derrek-gass.github.io/homeless-map/"
+        }]
+    },
+    "badges": {
+        "badges": [{
+            "title": "C++",
+            "image": "C++.svg"
+        }, {
+            "title": "Rust",
+            "image": "Rust.svg"
+        }, {
+            "title": "Python",
+            "image": "Python.svg"
         }]
     },
     "testimonials": {
