@@ -1063,6 +1063,7 @@ footer .social-links li:first-child { margin-left: 0; }
 #badges-wrapper .columns {
    margin-bottom: 36px;
    margin-top: 36px;
+   padding: 0px 10px 0px 0px;
 }
 
 .badges-item .item-wrap {
@@ -1125,14 +1126,17 @@ footer .social-links li:first-child { margin-left: 0; }
    left: 50%;
    margin-left: -15px;
    margin-top: -15px;
+   
 }
 
 .badges-item .item-wrap img {
    vertical-align: bottom;
+   
 }
 
 .badges-item .badges-item-meta {
    padding: 18px;
+   
 }
 
 .badges-item .badges-item-meta h5 {
