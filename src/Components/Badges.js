@@ -22,11 +22,10 @@ class Badges extends Component {
          </div>
 
          <div className="nine columns main-col">
-                <div id="badges-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              
+        <div id="badges-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             <div className="row item">  
                   {badges}
-                  </div>
+            </div>
                </div>
             </div>
          </div>

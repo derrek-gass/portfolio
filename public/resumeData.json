@@ -96,7 +96,7 @@
                 "company": "Hi.Delivery",
                 "title": "Junior Front-End Developer",
                 "years": "April 2018 - August 2018",
-                "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
+                "description": "I worked with a small, 2-man startup to develop a PaaS to track online sales, inventory, delivery, and invoicing for local businesses with a shoestring budget. I created reusable, responsive UI components with unit and integration testing."
             },
             {
                 "company": "Green Heart Club",
@@ -119,6 +119,30 @@
             "level": "72%"
         }]
     },
+    "badges": {
+        "badges": [{
+            "title": "c++",
+            "image": "c++.svg"
+        }, {
+            "title": "rust",
+            "image": "rust.svg"
+        }, {
+            "title": "python",
+            "image": "python.svg"
+        }, {
+            "title": "react",
+            "image": "react.svg"
+        }, {
+            "title": "angular",
+            "image": "angular.svg"
+        }, {
+            "title": "java",
+            "image": "java.png"
+        }, {
+            "title": "nodejs",
+            "image": "nodejs.svg"
+        }]
+    },
     "portfolio": {
         "projects": [{
             "title": "LearnJS",
@@ -130,18 +154,6 @@
             "category": "Interactive Exploration of Homelessness by state",
             "image": "d3-homeless.jpg",
             "url": "https://derrek-gass.github.io/homeless-map/"
-        }]
-    },
-    "badges": {
-        "badges": [{
-            "title": "c++",
-            "image": "c++.svg"
-        }, {
-            "title": "rust",
-            "image": "rust.svg"
-        }, {
-            "title": "python",
-            "image": "python.svg"
         }]
     },
     "testimonials": {
