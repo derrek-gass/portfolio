@@ -4,19 +4,32 @@
  <g>
   <title>background</title>
   <rect fill="#fff" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
  </g>
  <g>
   <title>Layer 1</title>
-  <g stroke="null" id="svg_10">
-   <g stroke="null" transform="matrix(0.8645737320935172,0,0,0.8645737320935172,-2349.731717739244,-2349.7318227237047) " id="svg_6">
-    <g stroke="null" id="svg_8">
-     <path stroke="null" id="svg_9" fill="#DD0031" d="m2908.842478,2961.546117l78.241,0l-39.12,-94.054l-39.121,94.054l0,0zm39.121,-242.425l-213.365,76.394l32.652,283.081l180.713,100.523l180.712,-100.523l32.653,-283.081l-213.365,-76.394zm133.688,350.956l-49.904,0l-26.9,-67.153l-113.563,0l-26.903,67.153l-50.003,0l133.585,-300.13l133.688,300.13z"/>
+  <defs>
+   <style>.cls-1,.cls-2{fill:#477ed0;fill-rule:evenodd}.cls-2{fill:#ec282c}</style>
+  </defs>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <g stroke="null" id="svg_35">
+   <g stroke="null" transform="matrix(0.9800268189656491,0,0,0.9800268189656491,-6583.172686029299,-6581.211909731381) " id="svg_32">
+    <title stroke="null" transform="translate(0,-1.0005627870559692) translate(1.0003390312194824,0) translate(9.094947017729282e-13,-0.00009222974767908454) translate(-0.00009222974767908454,9.094947017729282e-13) translate(6720.4150390625,0) translate(0,6720.4150390625) ">background</title>
+    <rect stroke="null" x="6720.415286" y="6718.414384" width="402" height="402" id="svg_30" fill="#fff"/>
+    <g stroke="null" id="svg_29" display="none">
+     <rect stroke="null" id="svg_33" width="400" height="400" x="6721.415286" y="6719.414384" stroke-width="0" fill="url(#gridpattern)"/>
     </g>
    </g>
-   <g stroke="null" transform="matrix(0.8645737320935172,0,0,0.8645737320935172,-2349.731717739244,-2349.7318227237047) " id="svg_5"/>
+   <g stroke="null" transform="matrix(0.9800268189656491,0,0,0.9800268189656491,-6583.172686029299,-6581.211909731381) " id="svg_34">
+    <title stroke="null" transform="translate(0,-1.0005627870559692) translate(1.0003390312194824,0) translate(9.094947017729282e-13,-0.00009222974767908454) translate(-0.00009222974767908454,9.094947017729282e-13) translate(6720.4150390625,0) translate(0,6720.4150390625) ">Layer 1</title>
+    <g stroke="null" id="svg_24">
+     <g stroke="null" id="svg_26" transform="matrix(0.8645737320935172,0,0,0.8645737320935172,-2349.731717739244,-2349.7318227237047) ">
+      <g stroke="null" id="svg_27">
+       <path stroke="null" d="m10683.096083,10733.4854l78.241,0l-39.12,-94.054l-39.121,94.054l0,0zm39.121,-242.425l-213.365,76.394l32.652,283.081l180.713,100.523l180.712,-100.523l32.653,-283.081l-213.365,-76.394zm133.688,350.956l-49.904,0l-26.9,-67.153l-113.563,0l-26.903,67.153l-50.003,0l133.585,-300.13l133.688,300.13z" fill="#DD0031" id="svg_28"/>
+      </g>
+     </g>
+     <g stroke="null" id="svg_25" transform="matrix(0.8645737320935172,0,0,0.8645737320935172,-2349.731717739244,-2349.7318227237047) "/>
+    </g>
+   </g>
   </g>
  </g>
 </svg>
