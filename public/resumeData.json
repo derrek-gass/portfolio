@@ -134,13 +134,13 @@
     },
     "badges": {
         "badges": [{
-            "title": "C++",
+            "title": "c++",
             "image": "c++.svg"
         }, {
-            "title": "Rust",
+            "title": "rust",
             "image": "rust.svg"
         }, {
-            "title": "Python",
+            "title": "python",
             "image": "python.svg"
         }]
     },
