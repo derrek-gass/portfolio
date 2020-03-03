@@ -135,13 +135,13 @@
     "badges": {
         "badges": [{
             "title": "C++",
-            "image": "C++.svg"
+            "image": "c++.svg"
         }, {
             "title": "Rust",
-            "image": "Rust.svg"
+            "image": "rust.svg"
         }, {
             "title": "Python",
-            "image": "Python.svg"
+            "image": "python.svg"
         }]
     },
     "testimonials": {
