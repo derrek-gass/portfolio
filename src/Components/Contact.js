@@ -127,7 +127,7 @@ class Contact extends Component {
                 <li>
                   <span>
                   let coffee = true;
-                    <a href="https://twitter.com/DerrekGass/status/1237884838763323395"><br/></a>
+                    <a href="https://twitter.com/DerrekGass/status/1237884838763323395"><br/>➤</a>
                   </span>
                   <b>
                     <a href="#">Today</a>
