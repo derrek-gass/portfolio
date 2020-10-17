@@ -59,7 +59,7 @@
                 "school": "California State University -- Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "January 2020",
-                "description": "I learned everything from mathematics and statistics to OOP & programming concepts"
+                "description": "Minor in Mathematics"
             },
             {
                 "school": "Sacramento City College",
@@ -110,13 +110,13 @@
             "level": "75%"
         }, {
             "name": "Algorithms",
-            "level": "69%"
+            "level": "85%"
         }, {
             "name": "System Architecture",
-            "level": "65%"
+            "level": "75%"
         }, {
             "name": "UI/UX",
-            "level": "72%"
+            "level": "90%"
         }]
     },
     "badges": {
