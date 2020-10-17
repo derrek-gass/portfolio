@@ -59,7 +59,11 @@
                 "school": "California State University -- Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "January 2020",
+<<<<<<< HEAD
                 "description": "Minor in Mathematics"
+=======
+                "description": ""
+>>>>>>> 927487a4279ada215c49ecb29320a11d3e5d5cef
             },
             {
                 "school": "Sacramento City College",
@@ -97,12 +101,6 @@
                 "title": "Junior Front-End Developer",
                 "years": "April 2018 - August 2018",
                 "description": "I worked with a small, 2-man startup to develop a PaaS to track online sales, inventory, delivery, and invoicing for local businesses with a shoestring budget. I created reusable, responsive UI components with unit and integration testing."
-            },
-            {
-                "company": "Green Heart Club",
-                "title": "Sales Lead & Dispatch Coordinator",
-                "years": "July 2016 - January 2018",
-                "description": "I worked in inventory management for a medical supply service to ensure sufficient support of core business goals while enhancing customer satisfaction through quality interaction and efficiency. I also managed sales calls and coordinated successful dispatch of supply shipments through our distribution network."
             }
         ],
         "skills": [{

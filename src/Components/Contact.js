@@ -121,19 +121,16 @@ class Contact extends Component {
                     <a href = "https://twitter.com/DerrekGass/status/1233807208015523840?s=20"><br/>➤</a>
                   </span>
                   <b>
-                    <a href="#">3 Hours Ago</a>
+                    <a href="#">11 Days Ago</a>
                   </b>
                 </li>
                 <li>
                   <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi
-                    <a href="#"><br/>http://t.co/CGIrdxIlI3</a>
+                  let coffee = true;
+                    <a href="https://twitter.com/DerrekGass/status/1237884838763323395"><br/>➤</a>
                   </span>
                   <b>
-                    <a href="#">3 Days Ago</a>
+                    <a href="#">Today</a>
                   </b>
                 </li>
               </ul>
