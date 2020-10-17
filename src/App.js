@@ -53,7 +53,6 @@ class App extends Component {
             <Badges data = { this.state.resumeData.badges }/>
             <Portfolio data = { this.state.resumeData.portfolio }/>
             <Testimonials data = { this.state.resumeData.testimonials }/>
-            <Contact data = { this.state.resumeData.main }/>
             <Footer data = { this.state.resumeData.main }/>
         </div>
         );
