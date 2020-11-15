@@ -103,6 +103,15 @@
     },
     "badges": {
         "badges": [{
+            "title": "html",
+            "image": "HTML5.svg"
+        }, {
+            "title": "css",
+            "image": "css3.svg"
+        }, {
+            "title": "js",
+            "image": "logo-javascript.svg"
+        }, {
             "title": "java",
             "image": "java.svg"
         }, {
@@ -112,11 +121,20 @@
             "title": "python",
             "image": "python.svg"
         }, {
+            "title": "mongoDB",
+            "image": "mongodb.svg"
+        }, {
+            "title": "express",
+            "image": "express.png"
+        }, {
             "title": "react",
             "image": "react.svg"
         }, {
             "title": "nodejs",
-            "image": "nodejs.svg"
+            "image": "nodejs-1.svg"
+        }, {
+            "title": "graphql",
+            "image": "graphql.svg"
         }]
     },
     "portfolio": {
