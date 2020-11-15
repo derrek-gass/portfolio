@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -1054,6 +1054,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-right: 10%;
 }
 
+
 .toolbox {
    padding-top: 48px;
    border-top: 1px solid #E8E8E8;
@@ -1070,6 +1071,9 @@ footer .social-links li:first-child { margin-left: 0; }
    background: #fff;
    overflow: hidden;
    position: relative;
+
+
+   
 
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;

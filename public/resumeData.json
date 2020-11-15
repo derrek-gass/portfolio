@@ -1,7 +1,7 @@
 {
     "main": {
         "name": "Derrek Gass",
-        "occupation": "Full Stack Web Developer",
+        "occupation": "Software Engineer",
         "description": "From the Front-End to the Back-End, and from planning to production, I LOVE everything about software development",
         "image": "profilepic.jpg",
         "bio": "I'm currently experimenting with Cloud Native applications, serverless architecture, Web Assembly, Rust, and React.  Among other things, I like producing experimental electronic dance music, building synthesizers & other music tools, painting & sketching new designs, skateboarding faster than is reasonable, bottling lightning, and spinning things on fire.",
@@ -70,21 +70,21 @@
         ],
         "work": [{
                 "company": "Flashpoint Learning",
-                "title": "Software Engineer Intern",
+                "title": "Software Engineer",
                 "years": "January 2019 - December 2019",
-                "description": "Working with a team of six other software developers with SCRUM methodology, I managed the front-end development and integration of a full-stack, progressive web application built with React.js, Node.js, Spring Boot, and deployed with Amazon Web Services. I Developed End to End test automation with Selenium in support of our CI / CD pipeline. I also maintained our product backlog and repository, scheduling and assignment of tasks, and arranged bi - monthly code reviews and client meetings, to render a contract from SRS to shippable product."
+                "description": "Working with a team of six other software developers with SCRUM methodology, I managed the front-end development and integration of a full-stack, progressive web application built with React.js, Node.js, and Spring Boot. Deployed with Amazon Web Services. Developed End to End test automation with Selenium in support of our CI/CD pipeline. Maintained our product backlog and repository, scheduling and assignment of tasks, and arranged bi-monthly code reviews and client meetings, to render a contract from SRS to shippable product."
             },
             {
                 "company": "Digital Systems Project Management",
-                "title": "Development Team Leader",
+                "title": "Development Team Lead",
                 "years": "June 2018 - August 2018",
                 "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
             },
             {
                 "company": "Hi.Delivery",
-                "title": "Junior Front-End Developer",
+                "title": "Junior Web Developer",
                 "years": "April 2018 - August 2018",
-                "description": "I worked with a small, 2-man startup to develop a PaaS to track online sales, inventory, delivery, and invoicing for local businesses with a shoestring budget. I created reusable, responsive UI components with unit and integration testing."
+                "description": "Worked with a small, 2-man startup developing our  PaaS to track online sales, inventory, delivery, and invoicing for local businesses. I created reusable, responsive UI components with unit and integration testing in support of our business goals."
             }
         ],
         "skills": [{
@@ -103,23 +103,17 @@
     },
     "badges": {
         "badges": [{
+            "title": "java",
+            "image": "java.svg"
+        }, {
             "title": "c++",
             "image": "c++.svg"
-        }, {
-            "title": "rust",
-            "image": "rust.svg"
         }, {
             "title": "python",
             "image": "python.svg"
         }, {
             "title": "react",
             "image": "react.svg"
-        }, {
-            "title": "angular",
-            "image": "angular.svg"
-        }, {
-            "title": "java",
-            "image": "java.svg"
         }, {
             "title": "nodejs",
             "image": "nodejs.svg"
@@ -128,11 +122,11 @@
     "portfolio": {
         "projects": [{
             "title": "LearnJS",
-            "category": "A serverless quiz app",
+            "category": "A Serverless Quiz Application",
             "image": "learnjs.jpg",
             "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
         }, {
-            "title": "Homeless Population - Explored with D3.js",
+            "title": "Indigent Population Statistics - An Exploration with D3.js",
             "category": "Interactive Exploration of Homelessness by state",
             "image": "d3-homeless.jpg",
             "url": "https://derrek-gass.github.io/homeless-map/"
@@ -142,10 +136,6 @@
         "testimonials": [{
                 "text": "Derrek is highly intelligent with a great eye for detail and understanding of not just the part of a project he is working on, but how that part fits together and integrates with the project as a whole. He is very knowledgeable when it comes to systems design, and optimization and understands how to work well as a part of a team.",
                 "user": "Alex Gonzalez"
-            },
-            {
-                "text": "That Derrek must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-                "user": "Steve Wozniak... impersonator"
             }
         ]
     }
