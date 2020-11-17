@@ -747,7 +747,7 @@ properly.
    }
 
 
-   .row .row { width: auto; max-width: auto; margin: 0 20px; }
+   .row .row { width: auto; max-width: auto; margin: 0 20px;   }
 
    [class*="column"] + [class*="column"]:last-child { 
       float: none; 

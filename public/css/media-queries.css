@@ -251,7 +251,7 @@
       text-align: center;
    }
    #badges h1 { letter-spacing: 3px; }
-   #badges .main-col { padding-right: 30px; }
+   #badges .main-col { padding-right: 30px; padding-left: 64px; }
    #badges h3, #badges .info { text-align: center; }
       
 
@@ -379,6 +379,12 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+   /*
+   #badges .row .item {
+      margin-left: 100px;
+   }
+*/
 
    /* footer
    ------------------------------------------------------------------------ */
