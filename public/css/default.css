@@ -622,8 +622,13 @@ input[type="checkbox"] { display: inline; }
    
 }
 .columns {
-   display: inline-flex;
+   display: block;
    padding: 50px;
+}
+/* Badge Grid Fix */
+.columns.badges-item{
+   display:inline-block;
+   float: none;
 }
 .column.centered, .columns.centered  {
     float: none;
@@ -741,7 +746,7 @@ properly.
    }
 
 
-   .row .row { width: auto; max-width: auto; margin: 0 -30px; }
+   .row .row { width: auto; max-width: auto; margin: 0 20px; }
 
    [class*="column"] + [class*="column"]:last-child { 
       float: none; 
