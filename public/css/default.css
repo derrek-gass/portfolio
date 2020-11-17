@@ -622,7 +622,7 @@ input[type="checkbox"] { display: inline; }
    
 }
 .columns {
-   display: inline-table;
+   display: inline-flex;
    padding: 50px;
 }
 .column.centered, .columns.centered  {
