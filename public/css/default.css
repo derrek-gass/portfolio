@@ -618,7 +618,12 @@ input[type="checkbox"] { display: inline; }
    position: relative;
    padding: 0 20px;
    min-height: 1px;
-   float: left;
+ 
+   
+}
+.columns {
+   display: inline-table;
+   padding: 50px;
 }
 .column.centered, .columns.centered  {
     float: none;
@@ -630,8 +635,8 @@ input[type="checkbox"] { display: inline; }
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
-[class*="column"] + [class*="column"].end { float: right; }
+[class*="column"] + [class*="column"]:last-child { float: none; }
+[class*="column"] + [class*="column"].end { float: none; }
 
 /* column widths */
 .row .one         { width: 8.33333%; }
@@ -732,14 +737,20 @@ properly.
 	   margin-left: 0;
 	   margin-right: 0;
       padding: 0 30px;
+     
    }
-
 
 
    .row .row { width: auto; max-width: auto; margin: 0 -30px; }
 
-   [class*="column"] + [class*="column"]:last-child { float: none; }
-   [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+   [class*="column"] + [class*="column"]:last-child { 
+      float: none; 
+     
+   }
+   [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { 
+      float: none; 
+      
+   }
 
    /* Offsets */
    .row .offset-1    { margin-left: 0%; }
