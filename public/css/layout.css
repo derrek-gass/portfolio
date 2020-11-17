@@ -1062,16 +1062,18 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* badges Content */
 #badges-wrapper .columns {
-   margin-bottom: 36px;
-   margin-top: 36px;
-   padding: 0px 10px 0px 0px;
+   width: 100px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left:10px;
+   margin-right:10px;
+   padding: 0px 0px 0px 0px;
 }
 
 .badges-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
-
 
    
 
@@ -1135,6 +1137,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .badges-item .item-wrap img {
    vertical-align: bottom;
+   width: 100px;
    
 }
 
