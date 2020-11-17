@@ -58,32 +58,32 @@
         "education": [{
                 "school": "California State University -- Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
-                "graduated": "January 2020",
-                "description": "Minor in Mathematics"
+                "graduated": "2020",
+                "description": ""
             },
             {
                 "school": "Sacramento City College",
                 "degree": "A.A. Social Sciences",
-                "graduated": "June 2017",
+                "graduated": "2017",
                 "description": ""
             }
         ],
         "work": [{
                 "company": "Flashpoint Learning",
                 "title": "Software Engineer",
-                "years": "January 2019 - December 2019",
+                "years": "January - December 2019",
                 "description": "Working with a team of six other software developers with SCRUM methodology, I managed the front-end development and integration of a full-stack, progressive web application built with React.js, Node.js, and Spring Boot. Deployed with Amazon Web Services. Developed End to End test automation with Selenium in support of our CI/CD pipeline. Maintained our product backlog and repository, scheduling and assignment of tasks, and arranged bi-monthly code reviews and client meetings, to render a contract from SRS to shippable product."
             },
             {
                 "company": "Digital Systems Project Management",
                 "title": "Development Team Lead",
-                "years": "June 2018 - August 2018",
+                "years": "June - August 2018",
                 "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
             },
             {
                 "company": "Hi.Delivery",
                 "title": "Junior Web Developer",
-                "years": "April 2018 - August 2018",
+                "years": "April - August 2018",
                 "description": "Worked with a small, 2-man startup developing our  PaaS to track online sales, inventory, delivery, and invoicing for local businesses. I created reusable, responsive UI components with unit and integration testing in support of our business goals."
             }
         ],
