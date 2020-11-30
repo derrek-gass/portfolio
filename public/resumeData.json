@@ -2,7 +2,7 @@
     "main": {
         "name": "Derrek Gass",
         "occupation": "Software Engineer",
-        "description": "From the Front-End to the Back-End, and from planning to production, I LOVE everything about software development",
+        "description": "I am a passionate software engineer who's recently graduated from California State University, Sacramento with a B.S. in Computer Science. I’ve learned everything from data structures and algorithms, to compiler design, OOP principles, construction of machine learning models, and data visualizations.  Whether it’s low level bit manipulations in assembly or building web applications with modern frameworks like React, I love software engineering.",
         "image": "profilepic.jpg",
         "bio": "I'm currently experimenting with Cloud Native applications, serverless architecture, Web Assembly, Rust, and React. ",
         "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunitiy to work together.",
@@ -15,7 +15,7 @@
             "zip": "95060"
         },
         "website": "https://derrekgass-cv.herokuapp.com/",
-        "resumedownload": "https://www.dropbox.com/s/ngmin4m802oq32q/DerrekGass_Resume.docx?dl=0",
+        "resumedownload": "https://www.dropbox.com/s/u1dr8cd2bzjdhbo/DerrekGass_Resume.pdf?dl=0",
         "social": [{
                 "name": "facebook",
                 "url": "https://www.facebook.com/profile.php?id=3228993",
