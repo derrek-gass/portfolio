@@ -660,7 +660,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 12px/12px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -680,7 +680,7 @@ call-to-action .button {
 
 /*	Blockquotes */
 #testimonials blockquote {
-   margin: 0 0px 30px 0px;
+   margin: 0 0px 48px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -689,15 +689,16 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 24px;
-   line-height: 48px;
+   font-size: 18px;
+   line-height: 36px;
    color: #fff
 }
 #testimonials blockquote cite {
    display: block;
    font-size: 12px;
+   margin-top: -18px;
    font-style: normal;
-   line-height: 18px;
+   line-height: 12px;
    color: #fff;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }

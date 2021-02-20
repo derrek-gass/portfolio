@@ -9,13 +9,13 @@
         "email": "dwgass@gmail.com",
         "phone": "916-690-7701",
         "address": {
-            "street": "373 Lee St",
+            "street": "308 River St. Unit D28",
             "city": "Santa Cruz",
             "state": "CA",
             "zip": "95060"
         },
         "website": "https://derrekgass-cv.herokuapp.com/",
-        "resumedownload": "https://www.dropbox.com/s/u1dr8cd2bzjdhbo/DerrekGass_Resume.pdf?dl=0",
+        "resumedownload": "https://www.dropbox.com/s/gmj60a7zpu9uovo/DerrekGass_Resume.docx?dl=1",
         "social": [{
                 "name": "facebook",
                 "url": "https://www.facebook.com/profile.php?id=3228993",
@@ -59,7 +59,7 @@
                 "school": "California State University - Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "2020",
-                "description": ""
+                "description": "Dean's List - 3x Recipient"
             },
             {
                 "school": "Sacramento City College",
@@ -70,21 +70,21 @@
         ],
         "work": [{
                 "company": "Flashpoint Learning",
-                "title": "Software Engineer",
-                "years": "January - December 2019",
-                "description": "Working with a team of six other software developers with SCRUM methodology, I managed the front-end development and integration of a full-stack, progressive web application built with React.js, Node.js, and Spring Boot. Deployed with Amazon Web Services. Developed End to End test automation with Selenium in support of our CI/CD pipeline. Maintained our product backlog and repository, scheduling and assignment of tasks, and arranged bi-monthly code reviews and client meetings, to render a contract from SRS to shippable product."
+                "title": "Software Engineer - Contract",
+                "years": "January 2019 - December 2019",
+                "description": ["• Spearheaded the front-end development and full-stack integration of an application consisting of flashcard sets, tutorials, and an instructor dashboard to assist special needs educators. I worked across the stack to create a progressive web application built with React.js, Node.js, and Java SpringBoot, continuously deployed to the cloud using the AWS platform.", "• Developed automated unit, integration, and functional testing with Selenium in support of our CI/CD pipeline with GitLab, reaching 85% code coverage.", "• Drafted our project charter, maintained our product backlog and repository, delegated requirements to team members through scheduling and assignment of tasks, and arranged weekly code reviews and merging of pull requests across multiple teams.", "• Facilitated client meetings to understand business objectives, for the purpose of simplifying functional requirements and rendering deliverables well ahead of schedule."]
             },
             {
                 "company": "Digital Systems Project Management",
-                "title": "Development Team Lead",
-                "years": "June - August 2018",
-                "description": "As development team leader, I led the design, prototyping, documentation and delivery of an MVC style web & iOS application for the purposes of automatic, GPS-location based student attendance tracking with canvas integration, using agile project management methodologies."
+                "title": "Software Engineer - Contract",
+                "years": "June 2018 - August 2018",
+                "description": ["• Oversaw the design, prototyping, documentation, and delivery of a web & iOS application for the purposes of automatic student attendance tracking, along with canvas plugin integration.", "• Our application has allowed each instructor in the Computer Science program at CSU, Sacramento to save 10 minutes of every class, every day."]
             },
             {
                 "company": "Hi.Delivery",
-                "title": "Junior Web Developer",
-                "years": "April - August 2018",
-                "description": "Worked with a small, 2-man startup developing our  PaaS to track online sales, inventory, delivery, and invoicing for local businesses. I created reusable, responsive UI components with unit and integration testing in support of our business goals."
+                "title": "Web Developer - Intern",
+                "years": "April 2017 - August 2018",
+                "description": ["• Bootstrapped a platform as a service for business owners to track online sales, inventory, delivery, and invoicing through a convenient dashboard, including business analytics and real-time monitoring of delivery drivers and customer interactions, while allowing customers a portal to place orders and manage subscriptions with each service provider, and also track the status of each live delivery.", "• Developed reusable, responsive UI components with unit and integration testing in support of our business goals, such as driver navigation, live order tracking, and manager dashboards."]
             }
         ],
         "skills": [{
@@ -139,6 +139,11 @@
     },
     "portfolio": {
         "projects": [{
+            "title": "Notez",
+            "category": "A Simple Flask Notes Application",
+            "image": "notez.jpg",
+            "url": "https://notez-flask.herokuapp.com/"
+        },{
             "title": "LearnJS",
             "category": "A Serverless Quiz Application",
             "image": "learnjs.jpg",
@@ -152,6 +157,21 @@
     },
     "testimonials": {
         "testimonials": [{
+                "text": "Derrek is a fast learner who is passionate about a plethora of technologies. He is not afraid of taking on new toolsets in order to better tackle the specific problem he is working on. Being able to choose the right tool for the job while also being willing learn new tech to do it right is a highly desirable quality in a software engineer.",
+                "user": "Josh Earlenbaugh"
+            },{
+                "text": "It is quite rare to come across an outstanding and hardworking talent such as Derrek. I have had the pleasure of working with and learning from Derrek for over three years, collaborating on several large team projects. Derrek's ability to find inventive solutions and his immense drive to tackle problems served as both inspiring motivation for the team and as an integral part to increasing the team's productivity. Derrek would be a valuable asset for any team.",
+                "user": "Alexander Lee"
+            },{
+                "text": "Derrek is a passionate programmer with expertise in RESTful web services, cloud application deployment, and is always excited to learn new frameworks and technologies.",
+                "user": "Daniel Scrivano"
+            },{
+                "text": "Derrek and I attended CSUS together for 2 years and worked on a variety of projects together. Consistently, Derrek impressed me with not only the breadth of knowledge that he possessed, but also his ability to expound upon a variety of technologies and frameworks. Be it backend technologies, front end web frameworks, or dev-ops pipelines, Derrek always seemed to have something extremely valuable to contribute to the conversation. Derrek has very strong technical capabilities, but one of his greatest strengths is his easy-to-get-along-with nature and sociability. Any team that chooses to take Derrek on will be bolstered by his eager attitude towards learning new things and his bright personality.",
+                "user": "Dimitrios Papageorgacopoulos"
+            },{
+                "text": "Derrek and I had 3 classes together (Data Visualization, Intelligent Systems, and Computing Theory & Programming Languages) which involved group projects. In these group projects, Derrek was always the one doing the heavy lifting on the project. He took initiative, and set up the environment, where all we’d have to do is a “git pull.” He would set the roadmap and expectations of the projects, and break it down to digestible chunks for us to contribute features to. Derrek is not only technically skilled, he is also able to articulate the design of our projects in our class presentations, and in each project we’ve done together, we had received A’s. Derrek is also pleasant to work with, and even though we were the same year in school, he was ahead of me technically, and I see him as a mentor. If you want a more in-depth opinion on Derrek, contact me on LinkedIn.",
+                "user": "Jimmy Le"
+            },{
                 "text": "Derrek is highly intelligent with a great eye for detail and understanding of not just the part of a project he is working on, but how that part fits together and integrates with the project as a whole. He is very knowledgeable when it comes to systems design, and optimization and understands how to work well as a part of a team.",
                 "user": "Alex Gonzalez"
             }
