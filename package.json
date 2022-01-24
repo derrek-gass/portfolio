@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "private": false,
+    "private": true,
     "engines": {
         "node": "16.13.1"
     },
@@ -22,7 +22,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "webpack",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "serve": "nodemon server.js",
