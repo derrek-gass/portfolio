@@ -77,15 +77,6 @@
                     "• Oversaw the design, prototyping, documentation, and delivery of a web & iOS application for the purposes of automatic student attendance tracking integrating with the canvas platform.",
                     "• Our application has allowed each instructor in the Computer Science program at CSU, Sacramento to save 10 minutes of every class, every day."
                 ]
-            },
-            {
-                "company": "Hi.Delivery",
-                "title": "Web Developer",
-                "years": "April 2017 - August 2018",
-                "description": [
-                    "• Bootstrapped a platform as a service for business owners to track online sales, inventory, delivery, and invoicing through a convenient dashboard, including business analytics and real-time monitoring of delivery drivers and customer interactions, while allowing customers a portal to place orders and manage subscriptions with each service provider, and also track the status of each live delivery.",
-                    "• Developed reusable, responsive UI components with unit and integration testing in support of our business goals, such as driver navigation, live order tracking, and manager dashboards."
-                ]
             }
         ],
         "skills": [{
