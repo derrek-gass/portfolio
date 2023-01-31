@@ -2,10 +2,10 @@
     "main": {
         "name": "Derrek Gass",
         "occupation": "Full Stack Engineer",
-        "description": "I am the \"Gass\" that transduces fluid ideas into solid ones",
+        "description": "I am the \"Gass\" that converts fluid ideas into solid ones",
         "image": "profilepic.jpg",
-        "bio": "I currently develop applications with React, TypeScript, Java, & Spring. In my free time, I experiment with WebVR and IoT smart home technologies, and enjoy teaching myself Clojure and Rust.",
-        "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunitiy to work together.",
+        "bio": "\uD83D\uDD2D I’m currently working on a VST plugin for exploring vector modulated distortion similar to Minimal Audio's Rift or Output's Thermal.\n\uD83D\uDCBB Fluent in Java, sharp with TypeScript, capable but not yet dangerous with SQL, and spent plenty of time in React to both love and hate it.\n\uD83C\uDF31 Other skills I'm growing: C++, bash (simple but powerful), Python (I dont love it, but I need it), Cloud/DevOps stuff (K8s, Docker, AWS, etc.)\n\uD83D\uDE34 Programming languages I've used but that bore me: PHP, Perl, Ruby, ASM, Scheme, VisualBasic... Everyone should make pong with their buddy at 16... that was a mood!\n⏳ Languages that seem cool but I have no time to get good with: Clojure, Rust\n\uD83C\uDFB8 I’m looking to collaborate on music projects. Let's jam and show off our processing chains and talk about the future of music.\n⚡ Fun fact: I can type 57 words per minute. \uD83D\uDE04 Just kidding... I can spin fire though, and was a mathlete, and wrestler.",
+        "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",
         "email": "dwgass@gmail.com",
         "phone": "916-690-7701",
         "address": {
@@ -14,7 +14,7 @@
         },
         "company": "Lambda Phase Systems LLC",
         "website": "lambdaphase.com/",
-        "resumedownload": "https://www.dropbox.com/s/balnyktsv13t77c/DerrekGass_Resume.pdf?dl=1",
+        "resumedownload": "https://www.dropbox.com/s/dgsn6u93wkybdlh/DerrekGass_Resume.pdf?dl=1",
         "social": [
             {
                 "name": "linkedin",
@@ -35,7 +35,8 @@
     },
     "resume": {
         "skillmessage": "",
-        "education": [{
+        "education": [
+            {
                 "school": "California State University - Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "2020",
@@ -52,30 +53,33 @@
             {
                 "company": "Northwestern Mutual",
                 "title": "Full Stack Engineer",
-                "years": "March 2021 - Present",
+                "years": "March 2021 - February 2023",
                 "description": [
-                    "• Contributing to the development of applications for financial instrument analysis, I ship features and expand functionality desired by multiple client groups and stakeholders, serving hundreds of analysts across multiple sectors, allowing cross functional collaboration and truth sourcing of data for safe growth of portfolios exceeding $240B.",
-                    "• Using React enforced with TypeScript, and Java with Spring, my team and I develop and maintain more than a dozen microservices and internal facing web applications using SSDLC best principles, delivering services with high availability and updates with new features every week."
-                ]
+                    "• Architected and implemented enhancements to an internal web-application that ingests financial data from vendors like BlackRock and Bloomberg, calculates and caches quantitative analytics, and exposes these feed files through a RESTful API in the form of a Java/Spring microservice. Our backend consumes these endpoints, constructs an object model,  and passes data along to our front-end React application.",
+                    "• Collaborated with stakeholders across multiple investment teams to expand the functionality, maintainability, robustness, and overall value provided by NM’s in-house credit monitoring tool.",
+                    "• Developed new features and improvements such as daily email summary notifications, analytical dashboards, data export functionality, user notes, activity feeds, and automation of a variety of business tasks.",
+                    "• Reduced technical debt by migrating a new group of stakeholders from a .Net and PowerBi application, to being fully integrated within our environment, providing the benefit of consensus."
+
+            ]
             },
             {
                 "company": "Flashpoint Learning",
-                "title": "Software Engineer",
+                "title": "Senior Capstone Project",
                 "years": "January 2019 - December 2019",
                 "description": [
-                    "• Spearheaded the front-end development and full-stack integration of an application consisting of flashcard sets, tutorials, and an instructor dashboard to assist special needs educators. I worked across the stack to develop this project as a PWA built with React and Java Spring, using CI/CD techniques and automated testing to deliver our application with  near 100% uptime using the AWS platform.",
-                    "• Developed automated unit, integration, and functional testing with Jest and Selenium in support of our CI/CD pipeline with GitLab, reaching 85% code coverage.",
+                    "• Spearheaded the front-end development and full-stack integration of an application consisting of flashcard sets, tutorials, and an instructor dashboard to assist educators serving students with specific and nuanced accessibility requirements.  I worked across the stack to develop this project as a PWA built with React and SpringBoot.",
+                    "• Developed automated unit and integration testing with Jest and JUnit in support of our CI/CD pipeline, increasing code coverage by 50%.. ",
                     "• Drafted our project charter, maintained our product backlog and repository, delegated requirements to team members through scheduling and assignment of tasks, and arranged weekly code reviews and merging of pull requests across multiple teams.",
-                    "• Facilitated client meetings to understand business objectives, for the purpose of simplifying functional requirements and rendering deliverables consistently and on time."
-                ]
+                    "• Facilitated client meetings to understand business objectives and adjust prioritization, for the purpose of delivering functional requirements and deliverables that incrementally provide value, all while progressing toward the final set of deliverables and the completion of our contract."
+
+            ]
             },
             {
                 "company": "Digital Systems Project Management",
-                "title": "Software Engineer",
+                "title": "Student Project",
                 "years": "June 2018 - August 2018",
                 "description": [
-                    "• Oversaw the design, prototyping, documentation, and delivery of a web & iOS application for the purposes of automatic student attendance tracking integrating with the canvas platform.",
-                    "• Our application has allowed each instructor in the Computer Science program at CSU, Sacramento to save 10 minutes of every class, every day."
+                    "Oversaw the design, prototyping, documentation, and delivery of a cross-platform application that automatically tracks student attendance (including spoof-detection), with an administrative dashboard provided as a native plugin to the canvas platform."
                 ]
             }
         ],
@@ -113,22 +117,19 @@
         }]
     },
     "portfolio": {
-        "projects": [{
-            "title": "Notez",
-            "category": "A Simple Flask Notes Application",
-            "image": "notez.jpg",
-            "url": "https://notez-flask.herokuapp.com/"
-        },{
+        "projects": [
+            {
             "title": "LearnJS",
             "category": "A Serverless Quiz Application",
             "image": "learnjs.jpg",
             "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
-        }, {
-            "title": "Indigent Population Statistics - An Exploration with D3.js",
-            "category": "Interactive Exploration of Homelessness by state",
-            "image": "d3-homeless.jpg",
-            "url": "https://derrek-gass.github.io/homeless-map/"
-        }]
+            }, {
+                "title": "Indigent Population Statistics - An Exploration with D3.js",
+                "category": "Interactive Exploration of Homelessness by state",
+                "image": "d3-homeless.jpg",
+                "url": "https://derrek-gass.github.io/homeless-map/"
+            }
+        ]
     },
     "testimonials": {
         "testimonials": [
