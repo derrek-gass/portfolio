@@ -62,7 +62,18 @@
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "2020",
                 "awards": ["Dean's List - 3x Recipient"],
-                "description": ["Software Engineering", "Principles of Programming Languages, Data Structures, Computer Architecture, Theory of Computation and Formal Languages, Operating Systems, Distributed Systems, Computer Modeling, Computer Networks, Compiler Construction, and Artificial Intelligence."]
+                "description": [
+                    "Software Engineering",
+                    "Principles of Programming Languages",
+                    "Data Structures & Algorithms",
+                    "Computer Architecture",
+                    "Theory of Computation and Formal Languages",
+                    "Operating Systems",
+                    "Distributed Systems", 
+                    "Computer Modeling", 
+                    "Computer Networks",
+                    "Compiler Construction",
+                    "Artificial Intelligence & Machine Learning"]
             },
             {
                 "school": "Sacramento City College",
@@ -150,6 +161,14 @@
             {
                 "title": "nodejs",
                 "image": "node.svg"
+            },
+            {
+                "title": "docker",
+                "image": "docker.svg"
+            },
+            {
+                "title": "k8s",
+                "image": "kubernetes.svg"
             }
 
         ]

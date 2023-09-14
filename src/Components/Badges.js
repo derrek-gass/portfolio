@@ -17,9 +17,9 @@ class Badges extends Component {
 
     return (
       <section id="badges">
-      <div className="row toolbox">
+      <div className="row toolkit">
          <div className="three columns header-col">
-            <h1><span>Toolbox</span></h1>
+            <h1><span>Toolkit</span></h1>
          </div>
 
          <div className="nine columns main-col">

@@ -273,7 +273,8 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 27.5px;
 }
 #resume .awards {
-   font: 14px/20px 'opensans-bold', sans-serif;
+   font: 16px/24px 'opensans-semibold', sans-serif;
+   font-style: italic;
    margin-top: -12px;
    margin-bottom: 24px;
 }
@@ -281,6 +282,11 @@ ul#nav li.current a { color: #F06000; }
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .description {
+   font: 15px/24px 'opensans-regular', serif;
+   margin-bottom: 9px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -1027,7 +1033,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 
-.toolbox {
+.toolkit {
    padding-top: 48px;
    border-top: 1px solid #E8E8E8;
 }

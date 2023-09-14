@@ -16,13 +16,15 @@ class Resume extends Component {
     var education = this.props.data.education.map(function(education){
       if ((education.description).length !== 0) {
         var description = education.description.map((descripto) => {
-          return <li>{descripto}</li>
+          return <div className="description"><span>&bull; </span>{descripto}</div>
         });
       }
         return <div key={education.school}><h3>{education.school}</h3>
-            <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-            <p className="awards">{education.awards[0]}</p>
-            <span>{description}</span>
+            <p className="info">{education.degree} <span>&bull;</span>
+            <em className="date">{education.graduated}</em>
+              {(education.awards.length !==0) && <><span>&bull;</span><em className="awards">{education.awards[0]}</em></>}
+            </p>
+            <p>{description}</p>
         </div>
     })
     }
