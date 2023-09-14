@@ -202,8 +202,15 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
    margin-bottom: 12px;
 }
+
+#about h3 {
+   font: 14px/20px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 8px;
+}
+
 #about p {
-   line-height: 30px;
+   line-height: 28px;
    color: #7A7A7A;
 }
 #about .profile-pic {

@@ -4,7 +4,8 @@ class Badges extends Component {
   render() {
 
     if(this.props.data){
-      var badges = this.props.data.badges.map(function(badges){
+      var badges = this.props.data.badges.map(
+        function(badges){
         var skillImage = 'images/badges/'+badges.image;
         return <div key={badges.title} className="columns badges-item">
            <div className="item-wrap">
