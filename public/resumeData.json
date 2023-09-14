@@ -61,13 +61,15 @@
                 "school": "California State University - Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "2020",
-                "description": ["Dean's List - 3x Recipient", "Software Engineering, Principles of Programming Languages, Data Structures, Computer Architecture, Theory of Computation and Formal Languages, Operating Systems, Distributed Systems, Computer Modeling, Computer Networks, Compiler Construction, and Artificial Intelligence."]
+                "awards": ["Dean's List - 3x Recipient"],
+                "description": ["Software Engineering", "Principles of Programming Languages, Data Structures, Computer Architecture, Theory of Computation and Formal Languages, Operating Systems, Distributed Systems, Computer Modeling, Computer Networks, Compiler Construction, and Artificial Intelligence."]
             },
             {
                 "school": "Sacramento City College",
                 "degree": "A.A. Social Sciences",
                 "graduated": "2017",
-                "description": ""
+                "awards": [""],
+                "description": []
             }
         ],
         "work": [

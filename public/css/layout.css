@@ -246,6 +246,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
+   padding-bottom: 48px;
    overflow: hidden;
 }
 
@@ -269,8 +270,12 @@ ul#nav li.current a { color: #F06000; }
 #resume .main-col { padding-right: 10%; }
 
 .education {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+   margin-bottom: 27.5px;
+}
+#resume .awards {
+   font: 14px/20px 'opensans-bold', sans-serif;
+   margin-top: -12px;
+   margin-bottom: 24px;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -731,7 +736,7 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
