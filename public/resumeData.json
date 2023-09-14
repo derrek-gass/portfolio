@@ -89,9 +89,9 @@
                 "title": "Full Stack Engineer",
                 "years": "March 2021 - February 2023",
                 "description": [
-                    "• Designed and executed improvements for an internal web application responsible for receiving financial data streams from BlackRock and Bloomberg. The application conducts quantitative analytics and delivers valuable data insights to investors across diverse sectors. This effort fosters enhanced collaboration, dependability and consensus for a long-standing financial institution undergoing modernization.",
-                    "• Crafted a range of innovative features and enhancements tailored to amplify collaboration, transparency, and operational efficiency for investors. These additions encompass daily email summary notifications, analytical dashboards, data export functionality, user-friendly note functionality, interactive activity feeds, and streamlined automation of multifaceted business tasks. As a result, substantial time savings and an elevated level of reliability were achieved.",
-                    "• Addressed significant technical debt through migrating the high-yield investment group away from an obsolete and unreliable .Net and PowerBi application and seamlessly integrating the group within our collaborative ecosystem. The result was a marked enhancement in the accuracy and resilience of financial data, along with a strengthened culture of cooperation."
+                    "• Optimized and improved a React/Java application responsible for ingesting financial streams and performing automated quantitative tasks, while providing a platform to discover and share insights natively among investors.",
+                    "• Crafted innovative enhancements such as daily email summary notifications, analytical dashboards, data export functionality, user profiles, shareable notes, interactive graphical utilities, activity feeds, and streamlined or automated a variety of multifaceted business tasks. ",
+                    "• Addressed significant technical debt by replacing legacy .NET code and onboarding a new team of investors, resulting in an increased accuracy of high-yield financial data and a strengthened culture of cooperation."    
                 ]
             },
             {
@@ -99,10 +99,10 @@
                 "title": "Engineering Lead",
                 "years": "January 2019 - December 2019",
                 "description": [
-                    "• Spearheaded the front-end development and full-stack integration of an application encompassing flashcard sets, tutorials, and an instructor dashboard. This initiative aimed to aid educators catering to students facing accessibility challenges. I undertook a comprehensive role across the tech stack, crafting this project as a Progressive Web App (PWA) using React and SpringBoot technologies.",
-                    "• Developed automated unit and integration testing with Jest and JUnit in support of our CI/CD pipeline, increasing code coverage by 50%.. ",
-                    "• Drafted our project charter, maintained our product backlog and repository, delegated requirements to team members through scheduling and assignment of tasks, and arranged weekly code reviews and merging of pull requests across multiple teams.",
-                    "• In my capacity as project manager, I orchestrated client meetings aimed at comprehending business objectives. I dynamically reevaluated the prioritization of functional requisites as we moved closer to finalizing the deliverables and fulfilling the terms of the work contract."
+                    "• Spearheaded the front-end development of an educational application for creating flashcards and tutorials, specifically for instructors teaching students with disabilities.",
+                    "• Architected the Front-End in React and communicated changes needed to the Spring API, and often provided assistance to the Back-End Engineers.",
+                    "• Developed automated unit and integration testing with Jest and JUnit in support of our CI/CD pipeline, increasing code coverage by 50%.",
+                    "• Drafted our project charter, maintained our product backlog and repository, delegated requirements, assigned tasks, and performed code reviews with both Back-End and Front-End team members."
                 ]
             },
             {
@@ -110,7 +110,7 @@
                 "title": "Student Project - Team Lead",
                 "years": "June 2018 - August 2018",
                 "description": [
-                    "Oversaw the design, prototyping, documentation, and delivery of a cross-platform application that automatically tracks student attendance (including spoof-detection), with an administrative dashboard provided as a native plugin to the canvas platform."
+                    "• Oversaw the design, prototyping, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance via network proximity with an administrative dashboard integrated directly within the canvas platform."
                 ]
             }
         ],
@@ -143,8 +143,8 @@
                 "image": "rust.svg"
             },
             {
-                "title": "Go",
-                "image": "go.svg"
+                "title": "Golang",
+                "image": "golang.svg"
             },
             {
                 "title": "Zig",
