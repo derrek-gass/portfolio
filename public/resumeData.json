@@ -139,6 +139,26 @@
                 "image": "c++.svg"
             }, 
             {
+                "title": "Rust",
+                "image": "rust.svg"
+            },
+            {
+                "title": "Go",
+                "image": "go.svg"
+            },
+            {
+                "title": "Zig",
+                "image": "zig.svg"
+            },
+            {
+                "title": "Clojure",
+                "image": "clojure.svg"
+            },
+            {
+                "title": "Babashka",
+                "image": "babashka.svg"
+            },
+            {
                 "title": "JavaScript",
                 "image": "logo-javascript.svg"
             }, 
@@ -163,6 +183,26 @@
                 "image": "node.svg"
             },
             {
+                "title": "Spring",
+                "image": "spring.svg"
+            },
+            {
+                "title": "PostgreSql",
+                "image": "postgres.svg"
+            },
+            {
+                "title": "git",
+                "image": "git.svg"
+            },
+            {
+                "title": "Jira",
+                "image": "jira.svg"
+            },
+            {
+                "title": "aws",
+                "image": "aws.svg"
+            },
+            {
                 "title": "Docker",
                 "image": "docker.svg"
             },
@@ -171,12 +211,8 @@
                 "image": "kubernetes.svg"
             },
             {
-                "title": "Spring",
-                "image": "spring.svg"
-            },
-            {
-                "title": "PostgreSql",
-                "image": "postgres.svg"
+                "title": "Unreal Enging",
+                "image": "unreal.svg"
             },
             {
                 "title": "D3.js",
