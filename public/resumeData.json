@@ -131,19 +131,19 @@
     "badges": {
         "badges": [
             {
-                "title": "java",
+                "title": "Java",
                 "image": "java.svg"
             }, 
             {
-                "title": "cpp",
+                "title": "C++",
                 "image": "c++.svg"
             }, 
             {
-                "title": "js",
+                "title": "JavaScript",
                 "image": "logo-javascript.svg"
             }, 
             {
-                "title": "ts",
+                "title": "TypeScript",
                 "image": "ts.svg"
             },
             {
@@ -151,24 +151,36 @@
                 "image": "HTML5.svg"
             },
             {
-                "title": "css",
+                "title": "CSS",
                 "image": "CSS3.svg"
             },
             {
-                "title": "react",
+                "title": "React",
                 "image": "react.svg"
             },
             {
-                "title": "nodejs",
+                "title": "NodeJS",
                 "image": "node.svg"
             },
             {
-                "title": "docker",
+                "title": "Docker",
                 "image": "docker.svg"
             },
             {
-                "title": "k8s",
+                "title": "Kubernetes",
                 "image": "kubernetes.svg"
+            },
+            {
+                "title": "Spring",
+                "image": "spring.svg"
+            },
+            {
+                "title": "PostgreSql",
+                "image": "postgres.svg"
+            },
+            {
+                "title": "D3.js",
+                "image": "d3.svg"
             }
 
         ]
