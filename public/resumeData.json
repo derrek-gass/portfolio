@@ -223,10 +223,6 @@
                 "image": "kubernetes.svg"
             },
             {
-                "title": "Unreal Enging",
-                "image": "unreal.svg"
-            },
-            {
                 "title": "D3.js",
                 "image": "d3.svg"
             }
