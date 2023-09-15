@@ -133,6 +133,10 @@
             {
                 "title": "Java",
                 "image": "java.svg"
+            },
+            {
+                "title": "Kotlin",
+                "image": "kotlin.svg"
             }, 
             {
                 "title": "C++",
@@ -153,6 +157,10 @@
             {
                 "title": "Clojure",
                 "image": "clojure.svg"
+            },
+            {
+                "title": "Python",
+                "image": "python.svg"
             },
             {
                 "title": "Babashka",
@@ -185,6 +193,10 @@
             {
                 "title": "Spring",
                 "image": "spring.svg"
+            },
+            {
+                "title": "GraphQL",
+                "image": "graphql.svg"
             },
             {
                 "title": "PostgreSql",
