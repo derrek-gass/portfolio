@@ -5,10 +5,17 @@ class Bio extends Component {
         if (this.props.bio) {
             var bioElements = this.props.bio.map((bioElement) => {
                 if (bioElement.key === "headline"){
-                    return <h3>{bioElement.text}</h3>
+                    return (
+                        <span key={bioElement.key} className="subheader">
+                            {bioElement.text}
+                            <br />
+                        </span>
+                    );
                 }
                 return (
-                    <div>{bioElement.text}</div>
+                    <span key={bioElement.key} className="description">
+                        {bioElement.text} <br/>
+                    </span>
                 );
             })
         }
@@ -17,7 +24,7 @@ class Bio extends Component {
             <p>
                 {bioElements}
             </p>
-            );
+        );
     }
 }
 

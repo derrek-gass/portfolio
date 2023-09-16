@@ -26,7 +26,7 @@
 body { background: #0f0f0f; }
 
 ::selection {
-   background: rgba(126, 126, 126, 0.6);
+   background: rgba(126, 126, 126, 1);
    color: #fff;
 }
 
@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
 }
 
-#about h3 {
+#about .subheader {
    font: 14px/20px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 8px;
@@ -219,6 +219,7 @@ ul#nav li.current a { color: #F06000; }
    line-height: 28px;
    color: #c5c5c5;
 }
+
 #about .profile-pic {
    position: relative;
    width: 170px;
@@ -261,7 +262,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume ::selection {
-   background: rgba(80, 80, 80, 0.8);
+   background: rgba(80, 80, 80, 1);
    color: rgb(255, 255, 255);
 }
 

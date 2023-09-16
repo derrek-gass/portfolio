@@ -11,13 +11,14 @@
         "@testing-library/user-event": "^14.4.3",
         "eslint-plugin-flowtype": "^8.0.3",
         "jquery": "^3.7.X",
+        "@types/lodash": "^4.14.198",
         "nodemon": "^3.0.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-ga": "^3.3.1",
         "react-scripts": "^5.0.1",
         "serve": "^14.2.0",
-        "typescript": "^4"
+        "typescript": "^4.9.5"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -40,5 +41,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.198"
     }
 }

@@ -93,7 +93,9 @@
                     "• Crafted innovative enhancements such as daily email summary notifications, analytical dashboards, data export functionality, user profiles, shareable notes, interactive graphical utilities, activity feeds, and streamlined or automated a variety of multifaceted business tasks. ",
                     "• Addressed significant technical debt by replacing legacy .NET code and onboarding a new team of investors, resulting in an increased accuracy of high-yield financial data and a strengthened culture of cooperation."    
                 ]
-            },
+            }
+        ],
+        "projects" : [
             {
                 "company": "Flashpoint Learning",
                 "title": "Engineering Lead",
@@ -107,7 +109,7 @@
             },
             {
                 "company": "Digital Systems Project Management",
-                "title": "Student Project - Team Lead",
+                "title": "Team Lead",
                 "years": "June 2018 - August 2018",
                 "description": [
                     "• Oversaw the design, prototyping, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance via network proximity with an administrative dashboard integrated directly within the canvas platform."
@@ -245,7 +247,7 @@
         ]
     },
     "testimonials": {
-        "testimonials": [
+        "testimonial": [
             {
                 "text": "Derrek is a fast learner who is passionate about a plethora of technologies. He is not afraid of taking on new toolsets in order to better tackle the specific problem he is working on. Being able to choose the right tool for the job while also being willing learn new tech to do it right is a highly desirable quality in a software engineer.",
                 "user": "Josh Earlenbaugh"
