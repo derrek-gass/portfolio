@@ -11,19 +11,19 @@
             },
             {
                 "key": "mainSkills",
-                "text": "• 💻 Main Skills: Java, JavaScript, TypeScript, React"
+                "text": "• 💻 Java, JavaScript, TypeScript, React"
             },
             {
                 "key": "other",
-                "text": "• ⚡ Other Skills: C/C++, Python, Docker, K8s, AWS"
+                "text": "• ⚡ C/C++, Python, Docker, K8s, AWS"
             },
             {
                 "key": "curentStudies",
-                "text": "• 🌱 Currently Studying for: AWS Certification, Interviews"
+                "text": "• 🌱 Studying for: AWS Certification"
             },
             {
                 "key": "learning",
-                "text": "• 📖 Learning: Rust, Clojure, BETH stack"
+                "text": "• 📖 Interests: Rust, Clojure, BETH stack"
             }
         ],
         "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",

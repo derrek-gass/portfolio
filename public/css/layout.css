@@ -25,6 +25,11 @@
 
 body { background: #0f0f0f; }
 
+::selection {
+   background: rgba(126, 126, 126, 0.6);
+   color: #fff;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -202,7 +207,6 @@ ul#nav li.current a { color: #F06000; }
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
-   margin-bottom: 12px;
 }
 
 #about h3 {
@@ -213,17 +217,21 @@ ul#nav li.current a { color: #F06000; }
 
 #about p {
    line-height: 28px;
-   color: #7A7A7A;
+   color: #c5c5c5;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 170px;
+   height: 170px;
    border-radius: 100%;
+
 }
-#about .contact-details { width: 41.66667%; }
+#about .description {
+   width: 75%;
+}
+#about .contact-details { width: 50%; }
 #about .download {
-   width: 58.33333%;
+   width: 50%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
@@ -250,6 +258,11 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 48px;
    overflow: hidden;
+}
+
+#resume ::selection {
+   background: rgba(80, 80, 80, 0.8);
+   color: rgb(255, 255, 255);
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
@@ -631,6 +644,12 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
+
+#testimonials ::selection{
+   background: rgba(255, 255, 255, .3);
+   color: #fff;
+}
+
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
@@ -667,7 +686,7 @@ call-to-action .button {
    padding: 0;
    font-size: 18px;
    line-height: 36px;
-   color: #fff
+   color: #cecece
 }
 #testimonials blockquote cite {
    display: block;
@@ -913,7 +932,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #cecece;
    font-size: 14px;
    text-align: center;
    position: relative;

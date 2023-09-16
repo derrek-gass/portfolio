@@ -18,17 +18,26 @@ class About extends Component {
       return (
          <section id="about">
             <div className="row">
-               <div className="three columns">
-                  <img
+               <div className="three columns"
+                    style={{
+                     display: "flex",
+                     justifyContent: "right"
+                  }}
+               >
+                  <img 
                      className="profile-pic"
                      src={profilepic}
                      alt="Derrek Gass Profile Pic"
                   />
                </div>
                <div className="nine columns main-col">
-                  <h2>About Me</h2>
+                  <div className="row">
+                     <div className="columns description">
+                        <h2>About Me</h2>
+                        <Bio bio={bio} />
+                     </div>
+                  </div>
 
-                  <Bio bio={bio} />
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>Contact Details</h2>
