@@ -133,3 +133,7 @@
       randomize: false,
    });
 });
+
+function jQuery(document) {
+   throw new Error("Function not implemented.");
+}
