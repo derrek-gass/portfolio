@@ -1,4 +1,9 @@
-import { Job } from "./Types";
+interface Job {
+  company: string;
+  title: string;
+  years: string;
+  description: string[];
+}
 
 function PortfolioSection(jobs: Job[]) {
   const jobList = Object.values(jobs).map(job => {
