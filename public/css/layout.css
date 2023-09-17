@@ -36,11 +36,12 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 2160px;
-   min-height: 500px;
+   height: 1280px;
+   min-height: 100%;
    width: 100%;
    background: #161415 url(../images/crab_nebula.png) no-repeat top center;
    background-size: cover !important;
+   background-position: center;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
