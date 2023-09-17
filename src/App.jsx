@@ -20,14 +20,13 @@ function App() {
         getResumeData();
       }, []);
 
-    function getResumeData() {
+    const getResumeData = () => {
         $.ajax({
             url: '/resumeData.json',
             dataType: 'json',
             cache: false,
             success: function(data) {
                 setResumeData(data);
-                console.log("data", data);
             },
             error: function(xhr, status, err) {
                 console.log(err);
