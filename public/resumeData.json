@@ -3,11 +3,11 @@
         "name": "Derrek Gass",
         "occupation": "Full Stack Engineer",
         "description": "transforming science-fiction into science-fact.",
-        "image": "profilepic.jpg",
+        "image": "portrait_1mb.png",
         "bio": [
             {
                 "key": "headline",
-                "text" : "Software Engineer | Developing Innovative Solutions"
+                "text" : "Full Stack Engineer | Developing Innovative & Scalable Solutions"
             },
             {
                 "key": "mainSkills",
@@ -58,29 +58,23 @@
         "skillmessage": "",
         "education": [
             {
-                "school": "California State University - Sacramento",
+                "school": "CSU, Sacramento",
                 "degree": "B.S. Computer Science & Engineering",
                 "graduated": "2020",
-                "awards": ["Dean's List - 3x Recipient"],
+                "awards": ["3.3 GPA", "Dean's List (3x)"],
                 "description": [
                     "Software Engineering",
-                    "Principles of Programming Languages",
+                    "Programming Languages",
                     "Data Structures & Algorithms",
                     "Computer Architecture",
-                    "Theory of Computation and Formal Languages",
+                    "Theory of Computation",
+                    "Formal Languages",
                     "Operating Systems",
                     "Distributed Systems", 
                     "Computer Modeling", 
                     "Computer Networks",
                     "Compiler Construction",
-                    "Artificial Intelligence & Machine Learning"]
-            },
-            {
-                "school": "Sacramento City College",
-                "degree": "A.A. Social Sciences",
-                "graduated": "2017",
-                "awards": [],
-                "description": []
+                    "AI & Machine Learning"]
             }
         ],
         "work": [
@@ -137,24 +131,12 @@
                 "image": "java.svg"
             },
             {
-                "title": "Kotlin",
-                "image": "kotlin.svg"
-            }, 
-            {
-                "title": "C++",
-                "image": "c++.svg"
-            }, 
-            {
                 "title": "Rust",
                 "image": "rust.svg"
             },
             {
                 "title": "Golang",
                 "image": "golang.svg"
-            },
-            {
-                "title": "Zig",
-                "image": "zig.svg"
             },
             {
                 "title": "Clojure",

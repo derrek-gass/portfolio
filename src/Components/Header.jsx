@@ -33,7 +33,15 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">{name}:</h1>
-                <h3>An extremely dedicated <span>{occupation}</span><br />{description}</h3>
+                <h3>
+                   An extremely dedicated
+                   <br />
+                   <span>
+                      {occupation}
+                   </span>
+                   <br />
+                   {description}
+                </h3>
             <hr />
             <ul className="social">
                {networks}

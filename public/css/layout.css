@@ -308,9 +308,9 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 27.5px;
 }
 #resume .awards {
-   font: 16px/24px 'opensans-semibold', sans-serif;
+   font: 14px/22px 'opensans-semibold', sans-serif;
    font-style: italic;
-   margin-top: -12px;
+   margin-top: -8px;
    margin-bottom: 24px;
 }
 #resume .info {
