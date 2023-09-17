@@ -1,8 +1,8 @@
 {
     "main": {
-        "name": "Derrek Warren Gass",
+        "name": "Derrek Gass",
         "occupation": "Full Stack Engineer",
-        "description": "transforming science-fiction into science-fact",
+        "description": "transforming science-fiction into science-fact.",
         "image": "profilepic.jpg",
         "bio": [
             {
@@ -35,7 +35,7 @@
         },
         "company": "Lambda Phase Systems LLC",
         "website": "lambdaphase.com/",
-        "resumedownload": "https://docs.google.com/document/d/14I86YeAxGqGXH_r0pz4OuIephREJQzrL89oIQdvPsu8/export?format=pdf",
+        "resumedownload": "https://docs.google.com/document/d/1yOPA3XHZd0mtjZ01eR1ya2A9tEGxf8je/export?format=pdf",
         "social": [
             {
                 "name": "linkedin",
