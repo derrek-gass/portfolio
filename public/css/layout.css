@@ -84,7 +84,7 @@ header .banner-text {
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
-   text-shadow: 4px 4px 7px rgba(0, 0, 0, .8);
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    -webkit-animation: glow 3s ease-in-out infinite alternate;
