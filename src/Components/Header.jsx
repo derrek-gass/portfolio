@@ -5,8 +5,8 @@ class Header extends Component {
 		if (this.props.data) {
 			var occupation = this.props.data.occupation;
 			var description = this.props.data.description;
+			var myName = this.props.data.name;
 			var networks = this.props.data.social.map(function (network) {
-				var name = this.props.data.name;
 				return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
 			})
 		}
@@ -25,7 +25,7 @@ class Header extends Component {
 				</nav>
 				<div className="row banner">
 					<div className="banner-text">
-						<h1 className="responsive-headline">{name}:</h1>
+						<h1 className="responsive-headline">{myName}:</h1>
 						<h3>
 							An extremely dedicated
 							<br />

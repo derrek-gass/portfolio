@@ -2,15 +2,13 @@ import { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
-import {
-    Header,
-    About,
-    Resume,
-    Badges,
-    Portfolio,
-    Testimonials,
-    Footer,
-} from "./Components";
+import Header from './Components/Header';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Badges from './Components/Badges';
+import Portfolio from './Components/Portfolio';
+import Testimonials from './Components/Testimonials';
+import Footer from './Components/Footer';
 
 function App() {
     const [resumeData, setResumeData] = useState({});
