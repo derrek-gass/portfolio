@@ -1,34 +1,38 @@
 {
     "main": {
         "name": "Derrek Gass",
-        "occupation": "Full Stack Engineer",
-        "description": "transforming science-fiction into science-fact.",
+        "occupation": "Software Engineer",
+        "description": "with 4+ years' of experience in Java, JavaScript, TypeScript, and React. Proficient in C++, Python, SQL, and Bash. Expert web developer and DevOps practitioner. Currently grokking Rust, Go, and Next.js.",
         "image": "portrait_1mb.png",
         "bio": [
             {
                 "key": "headline",
-                "text" : "Full Stack Engineer | Developing Innovative & Scalable Solutions"
+                "text" : "Software Engineer | Developing Efficient & Scalable Solutions"
             },
             {
-                "key": "mainSkills",
-                "text": "• 💻  Java, JavaScript, TypeScript, HTML, CSS, Node, React, Spring, PostgreSQL"
+                "key": "frontend",
+                "text": "• Frontend — JavaScript, TypeScript, React, Next, Node, HTML, CSS, Sass, Less, jQuery, ThreeJS, D3, Bootstrap, Handlebars, Jest, Selenium"
             },
             {
-                "key": "other",
-                "text": "• ⚡ Bash, Git, Jira, AWS, Docker, Kubernetes, REST, CI/CD, Agile/Scrum"
+                "key": "backend",
+                "text": "• Backend — Java, Python, SQL, PostgreSQL, Bash, Spring, Spring Boot, Flask, Gradle, Maven, Flyway, Swagger, JPA, JDBI, Hibernate, Jackson, Lombok"
             },
             {
-                "key": "curentStudies",
-                "text": "• 🌱 Studying for: AWS Certification"
+                "key": "devOps",
+                "text": "• DevOps — Docker, Kubernetes, Terraform, Nginx, AWS: (EC2, S3, Lambda), OpenAPI, Grafana, Git, GitLab, Jira, Confluence"
             },
             {
-                "key": "learning",
-                "text": "• 📖 Interests: Rust, Clojure, BETH stack"
+                "key": "libraries",
+                "text": "• Libraries & Tooling — Lodash, Axios, Pandas, Shadertoy, React-three-fiber, babashka"
+            },
+            {
+                "key": "studying",
+                "text": "• Grokking — Rust, Go, Next, Clojure"
             }
         ],
         "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",
         "email": "derrekgass@gmail.com",
-        "phone": "408-412-0755",
+        "phone": "408.412.0755",
         "address": {
             "city": "Campbell",
             "state": "CA"
