@@ -7,7 +7,7 @@ function Resume(props: any) {
             if (education.description.length !== 0) {
                 var description = education.description.map((descripto: any) => {
                     return (
-                        <div className="description">
+                        <div key={descripto} className="description">
                             <span>&bull; </span>
                             {descripto}
                         </div>
