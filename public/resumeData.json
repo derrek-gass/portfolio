@@ -27,10 +27,10 @@
             }
         ],
         "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",
-        "email": "dwgass@gmail.com",
+        "email": "derrekgass@gmail.com",
         "phone": "408-412-0755",
         "address": {
-            "city": "Santa Cruz",
+            "city": "Campbell",
             "state": "CA"
         },
         "company": "Lambda Phase Systems LLC",
@@ -49,7 +49,7 @@
             },
             {
                 "name": "E-Mail",
-                "url": "mailto:dwgass@gmail.com",
+                "url": "mailto:derrekgass@gmail.com",
                 "className": "fa fa-envelope"
             }
         ]
@@ -80,33 +80,85 @@
         "work": [
             {
                 "company": "Northwestern Mutual",
-                "title": "Full Stack Engineer",
+                "title": "Software Engineer",
                 "years": "March 2021 - February 2023",
                 "description": [
-                    "• Optimized and improved a React/Java application responsible for ingesting financial streams and performing automated quantitative tasks, while providing a platform to discover and share insights natively among investors.",
-                    "• Crafted innovative enhancements such as daily email summary notifications, analytical dashboards, data export functionality, user profiles, shareable notes, interactive graphical utilities, activity feeds, and streamlined or automated a variety of multifaceted business tasks. ",
-                    "• Addressed significant technical debt by replacing legacy .NET code and onboarding a new team of investors, resulting in an increased accuracy of high-yield financial data and a strengthened culture of cooperation."    
+                    "• Developed features as an individual contributor to Credit Edge: an application offering a suite of tools for credit monitoring and research applications, serving the needs of nearly 100 investors managing assets over $200B",
+                    "• Automated bundling of assets undergoing corporate actions (mergers, acquisitions, credit swaps) into a single transaction, reducing costly errors and creating time savings of several days per quarter with annual savings of tens of thousands of dollars of company time",
+                    "• Increased interdepartmental visibility by creating an automated email notification of daily activity",
+                    "• Successfully onboarded a new division of investors to the application by preserving interoperability with existing business workflows through data download and export functionality, as well as developing custom tailored solutions catering to their specific needs",
+                    "• Increased product robustness and reliability by increasing unit and integration test coverage by 20%",
+                    "• Set up application health and error logging using Grafana, Kibana, and Prometheus with real-time notifications to Slack and e-mail."
+                ]
+            },
+            {
+                "company": "Flashpoint Learning",
+                "title": "Software Engineer",
+                "years": "January 2019 - December 2019",
+                "description": [
+                    "• Spearheaded the front-end development of an educational application for creating flashcard decks, specifically tailored for instructors teaching students with disabilities",
+                    "• Architected the Front-End user interface in React and developed necessary functional requirements for the Back-End Spring API, working in tandem with Back-End Engineers to complete features ahead of schedule",
+                    "• Developed automated unit and integration testing with Jest and JUnit in support of our CI/CD pipeline, increasing code coverage to 90%",
+                    "• Collaborated with product manager to prioritize feature backlog, delegate requirements, and assign tasks"
+                ]
+            },
+            {
+                "company": "Digital Systems Project Management",
+                "title": "Web Developer",
+                "years": "June 2018 - August 2018",
+                "description": [
+                    "• Oversaw the design, prototyping, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance via network proximity with an administrative dashboard integrated directly within the canvas platform"
+                ]
+            },
+            {
+                "company": "Hi Delivery",
+                "title": "Frontend Developer",
+                "years": "April 2015 - August 2018",
+                "description": [
+                    "• Bootstrapped a feature-rich application for local business owners to manage sales, inventory, delivery, operations, customer management, and delivery logistics.",
+                    "• Created storefront components to display products and for customers to interact, manage and place orders",
+                    "• Produced admin and application monitoring dashboards",
+                    "• Accelerated developer workflow by contributing dozens of reusable elements to a responsive UI component library"
                 ]
             }
         ],
         "projects" : [
             {
-                "company": "Flashpoint Learning",
-                "title": "Engineering Lead",
-                "years": "January 2019 - December 2019",
+                "company": "Supply Chain Management Service",
+                "title": "Recommendation Engine",
+                "years": "September 2024 - Present",
                 "description": [
-                    "• Spearheaded the front-end development of an educational application for creating flashcards and tutorials, specifically for instructors teaching students with disabilities.",
-                    "• Architected the Front-End in React and communicated changes needed to the Spring API, often providing assistance to Back-End Engineers.",
-                    "• Developed automated unit and integration testing with Jest and JUnit in support of our CI/CD pipeline, increasing code coverage to 90%.",
-                    "• Drafted our project charter, maintained our product backlog and repository, delegated requirements, assigned tasks, and performed code reviews with both Back-End and Front-End team members."
+                    "● Developing a service for supply chain management",
+                    "● Used to track orders, production, and operational logistics",
+                    "● A recommendation engine identifies bottlenecks and possible solutions"
                 ]
             },
             {
-                "company": "Digital Systems Project Management",
-                "title": "Team Lead",
-                "years": "June 2018 - August 2018",
+                "company": "Interactive Visualization of the Indigent Population",
+                "title": "Statistical Analysis",
+                "years": "December 2019",
                 "description": [
-                    "• Oversaw the design, prototyping, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance via network proximity with an administrative dashboard integrated directly within the canvas platform."
+                    "● An interactive data exploration of the Department of Housing and Urban Development`s annual Point-In-Time Homelessness count.",
+                    "● Implemented a series of interactive widgets with D3.js",
+                    "● Data wrangling objectives were expedited by leveraging Python scripts and Pandas for batch CSV file conversion."
+                ]
+            },
+            {
+                "company": "Image Classification Model",
+                "title": "Machine Learning",
+                "years": "November 2019",
+                "description": [
+                    "● Trained a Convolutional Neural Network for supervised learning of common objects using the CIFAR-10 dataset, with an averaged F1 score of 0.73.",
+                    "● Developed an alternative solution with transfer learning using the VGG16 model, providing a training speedup of 4X."
+                ]
+            },
+            {
+                "company": "Network Anomaly Detector",
+                "title": "Machine Learning",
+                "years": "October 2019",
+                "description": [
+                    "● Used the KDD 1999 Cup dataset to train a predictive model that detects fraudulent network connections.",
+                    "● Achieved a 99.85% accuracy rating with a convolutional neural network built with TensorFlow and Pandas."
                 ]
             }
         ],
