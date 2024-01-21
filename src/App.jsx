@@ -95,13 +95,13 @@ function App() {
     return (
         <div className="App">
             <Header data={resumeData.main} vertex={vertex} fragment={fragment} />
-            <Canvas style={{ width: "100vw", height: "100vh" }}>
-                <Scene vertex={vertex} fragment={fragment} />
-            </Canvas>
             <About props={resumeData.main} />
             <Resume props={resumeData.resume} />
             <Badges data={resumeData.badges} />
             <Portfolio data={resumeData.portfolio} />
+            <Canvas style={{ width: "100vw", height: "100vh" }}>
+                <Scene vertex={vertex} fragment={fragment} />
+            </Canvas>
             <Testimonials data={resumeData.testimonials} />
             <Footer data={resumeData.main} />
         </div>
