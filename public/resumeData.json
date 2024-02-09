@@ -188,28 +188,8 @@
   "badges": {
     "badges": [
       {
-        "title": "Java",
-        "image": "java.svg"
-      },
-      {
-        "title": "Rust",
-        "image": "rust.svg"
-      },
-      {
-        "title": "Golang",
-        "image": "golang.svg"
-      },
-      {
-        "title": "Clojure",
-        "image": "clojure.svg"
-      },
-      {
-        "title": "Python",
-        "image": "python.svg"
-      },
-      {
-        "title": "Babashka",
-        "image": "babashka.svg"
+        "title": "React",
+        "image": "react.svg"
       },
       {
         "title": "JavaScript",
@@ -228,32 +208,29 @@
         "image": "CSS3.svg"
       },
       {
-        "title": "React",
-        "image": "react.svg"
-      },
-      {
         "title": "NodeJS",
         "image": "node.svg"
+      },
+      {
+        "title": "Java",
+        "image": "java.svg"
       },
       {
         "title": "Spring",
         "image": "spring.svg"
       },
       {
-        "title": "GraphQL",
-        "image": "graphql.svg"
+        "title": "Rust",
+        "image": "rust.svg"
       },
+      {
+        "title": "Python",
+        "image": "python.svg"
+      },
+
       {
         "title": "PostgreSql",
         "image": "postgres.svg"
-      },
-      {
-        "title": "git",
-        "image": "git.svg"
-      },
-      {
-        "title": "Jira",
-        "image": "jira.svg"
       },
       {
         "title": "aws",
@@ -266,6 +243,14 @@
       {
         "title": "Kubernetes",
         "image": "kubernetes.svg"
+      },
+      {
+        "title": "git",
+        "image": "git.svg"
+      },
+      {
+        "title": "Jira",
+        "image": "jira.svg"
       },
       {
         "title": "D3.js",
