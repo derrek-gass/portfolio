@@ -2,32 +2,28 @@
   "main": {
     "name": "Derrek Gass",
     "occupation": "Software Engineer",
-    "description": "with 4+ years' of experience in Java, JavaScript, TypeScript, and React. Proficient in C++, Python, SQL, and Bash. Expert web developer and DevOps practitioner. Currently grokking Rust, Go, and Next.js.",
+    "description": "with 5+ years' of experience in Java, React, TypeScript, and Rust.",
     "image": "portrait_1mb.png",
     "bio": [
       {
         "key": "headline",
-        "text": "Software Engineer | Developing Efficient & Scalable Solutions"
+        "text": "Software Engineer | Java, React, TypeScript, Rust"
       },
       {
         "key": "frontend",
-        "text": "• Frontend — JavaScript, TypeScript, React, Next, Node, HTML, CSS, Sass, Less, ThreeJS, D3, Bootstrap, Jest, Selenium"
+        "text": "• Frontend — JavaScript, TypeScript, React, Next, Nuxt, Node, HTML, CSS, Sass, Less, Bootstrap, Tailwind, jQuery, Jest, Selenium"
       },
       {
         "key": "backend",
-        "text": "• Backend — Java, Python, SQL, PostgreSQL, Bash, Spring, Flyway, JDBI, Hibernate"
+        "text": "• Backend — Java, Rust, Python, Bash, SQL, SQLite, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
       },
       {
         "key": "devOps",
-        "text": "• DevOps — Docker, Kubernetes, Nginx, AWS: (EC2, S3, Lambda), Grafana, Git, GitLab, JIRA"
+        "text": "• DevOps — Docker, Kubernetes, Terraform, AWS, Grafana, Git, GitLab, JIRA"
       },
       {
         "key": "libraries",
-        "text": "• Libraries & Tooling — Lodash, Axios, Pandas, Shadertoy, React-three-fiber, babashka"
-      },
-      {
-        "key": "studying",
-        "text": "• Grokking — Rust, Go, Next, Clojure"
+        "text": "• Libraries & Tooling — Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, Vite"
       }
     ],
     "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",
