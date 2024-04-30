@@ -2,40 +2,38 @@
   "main": {
     "name": "Derrek Gass",
     "occupation": "Software Engineer",
-    "description": "with 5+ years' of experience in Java, React, TypeScript, and Rust.",
+    "description": "with 5+ years' of experience in Java, React, and TypeScript",
     "image": "portrait_1mb.png",
     "bio": [
       {
         "key": "headline",
-        "text": "Software Engineer | Java, React, TypeScript, Rust"
+        "text": "Software Engineer | Java, React, TypeScript"
       },
       {
         "key": "frontend",
-        "text": "• Frontend — JavaScript, TypeScript, React, Next, Nuxt, Node, HTML, CSS, Sass, Less, Bootstrap, Tailwind, jQuery, Jest, Selenium"
+        "text": "• Frontend — JavaScript, TypeScript, React, Node, HTML, CSS, Sass, Bootstrap, Tailwind, jQuery, Jest, Selenium"
       },
       {
         "key": "backend",
-        "text": "• Backend — Java, Rust, Python, Bash, SQL, SQLite, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
+        "text": "• Backend — Java, Rust, Python, Bash, SQL, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
       },
       {
         "key": "devOps",
-        "text": "• DevOps — Docker, Kubernetes, Terraform, AWS, Grafana, Git, GitLab, JIRA"
+        "text": "• DevOps — Docker, Kubernetes, AWS, Grafana, Git, GitLab, JIRA, Linux"
       },
       {
         "key": "libraries",
-        "text": "• Libraries & Tooling — Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, Vite"
+        "text": "• Libraries & Tooling — Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, Vite, BeautifulSoup"
       }
     ],
-    "contactmessage": "Feel free to get in touch with me. I'd love to discuss an opportunity to work together.",
     "email": "derrekgass@gmail.com",
-    "phone": "408.412.0755",
     "address": {
       "city": "Campbell",
       "state": "CA"
     },
     "company": "Lambda Phase Systems LLC",
     "website": "lambdaphase.com/",
-    "resumedownload": "https://drive.google.com/uc?export=download&id=10SzYgkKL4vcxZriKKnbftg4ZBDV3RLRi",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1WVZH10UBqDf3hWdO8bdo8RsTQjG_F1ZY",
     "social": [
       {
         "name": "linkedin",
@@ -80,16 +78,27 @@
     ],
     "work": [
       {
+        "company": "JCPenney",
+        "title": "Digital Operations Sr. Specialist",
+        "years": "March 2024 - Present",
+        "description": [
+          "• Spearheaded a major campaign initiative to drive rewards program signups, and delivered a 7x increase in page visits, and an increase of $120k per day in revenue share attributable to SEO and page optimizations with pixel-perfect execution.",
+          "• Working cross-functionally to open communication channels and to modernize our design system and site architecture",
+          "• Reduced to-market production time for editorial pages from 14 to 7 weeks within the first month of employment"
+        ]
+      },
+      {
         "company": "Northwestern Mutual",
         "title": "Full Stack Software Engineer",
         "years": "March 2021 - February 2023",
         "description": [
-          "• Developed features for a microservices application offering a suite of tools for credit monitoring and financial research, serving the needs of over 100 investors managing assets over $200B",
-          "• Automated aggregation of assets undergoing corporate actions (mergers, acquisitions, credit swaps), reducing costly errors and creating time savings valued at tens of thousands of dollars per quarter",
-          "• Increased interdepartmental visibility by creating an automated email notification of daily activity",
-          "• Successfully onboarded a new division of investors by preserving interoperability with existing business workflows through custom tailored interactive data visualization and export functionality",
-          "• Increased product robustness and reliability by increasing unit and integration test coverage by 20%",
-          "• Set up application health and error logging using Grafana with real-time notifications to Slack and Email"
+          "• Developed enhancements to a microservices web application for credit monitoring and research",
+          "• Implemented a batch processing tool for corporate actions, decreasing manual processing time by 72 hours per month",
+          "• Optimized the performance of data visualization algorithms, leading to a 300ms reduction in render time",
+          "• Developed and maintained ETL processes ingest data into Aurora Postgres, Redshift, and AWS S3",
+          "• Implemented data export to safeguard existing business workflows, resulting in a 30% reduction in onboarding time",
+          "• Implemented a daily news feed resulting in a 40% increase in cross-departmental user engagement",
+          "• Deployed real-time application metrics and error logging using Grafana with notifications to Slack and Email"
         ]
       },
       {
@@ -97,32 +106,30 @@
         "title": "Software Engineer",
         "years": "January 2019 - December 2019",
         "description": [
-          "• Spearheaded the development of an educational application enabling creation of quizzes and flashcard decks",
-          "• Created the requirements specification, placing a strong emphasis on prioritizing accessibility considerations",
-          "• Designed React-based frontend user interface and Java Spring-based backend architecture",
-          "• Set up CI/CD pipelines using GitLab pipelines with automatic deployment to AWS",
-          "• Developed automated unit and integration testing with Jest and JUnit, increasing code coverage to 90%"
+          "• Collaborated with cross-functional teams to gather requirements, design, and develop a web application for publishing educational content and tracking student performance",
+          "• Designed and implemented the frontend interface in React integrated with the Java Spring-based backend API",
+          "• Set up CI/CD pipelines using GitLab with automatic deployment to AWS and health metrics on CloudWatch",
+          "• Developed unit and integration testing with Jest and JUnit, increasing code coverage to 95%"
         ]
       },
       {
-        "company": "Digital Systems Project Management",
+        "company": "DSPM Technologies",
         "title": "Web Developer",
         "years": "June 2018 - August 2018",
         "description": [
           "• Led the design, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance",
-          "• Leveraged Kotlin and React to deploy web and native applications with precise location for network proximity tasks",
-          "• Produced admin views integrated directly within the canvas platform and data export via Google Sheets API"
+          "• Leveraged Kotlin and React to build cross-platform applications using GPS location to detect network proximity",
+          "• Produced admin views integrated directly within the canvas platform with data export using Google Sheets API"
         ]
       },
       {
         "company": "Hi Delivery",
         "title": "Frontend Developer",
-        "years": "April 2015 - August 2018",
+        "years": "April 2016 - August 2018",
         "description": [
-          "• Bootstrapped a feature-rich application for business owners to manage supply chain and ecommerce operations",
-          "• Created storefront components to display products and for customers to interact, manage and place orders",
-          "• Produced monitoring dashboards to enhance visibility and ensure site reliability, achieving a 99.99% uptime",
-          "• Accelerated developer workflow by contributing dozens of reusable elements to a responsive UI component library"
+          "• Bootstrapped a feature-rich application for business owners to manage Ecommerce operations",
+          "• Created configurable components in JavaScript and React for business owners to customize storefronts",
+          "• Produced dashboards for application metrics to support site reliability and ensure a 99.99% uptime"
         ]
       }
     ],
@@ -132,9 +139,9 @@
         "title": "Recommendation Engine",
         "years": "September 2024 - Present",
         "description": [
-          "● Developing a service for supply chain management",
-          "● Used to track orders, production, and operational logistics",
-          "● A recommendation engine identifies bottlenecks and possible solutions"
+          "• Developing a service for supply chain management",
+          "• Used to track orders, production, and operational logistics",
+          "• A recommendation engine identifies bottlenecks and possible solutions"
         ]
       },
       {
@@ -142,9 +149,9 @@
         "title": "Statistical Analysis",
         "years": "December 2019",
         "description": [
-          "● An interactive data exploration of the Department of Housing and Urban Development`s annual Point-In-Time Homelessness count.",
-          "● Implemented a series of interactive widgets with D3.js",
-          "● Data wrangling objectives were expedited by leveraging Python scripts and Pandas for batch CSV file conversion."
+          "• An interactive data exploration of the Department of Housing and Urban Development`s annual Point-In-Time Homelessness count.",
+          "• Implemented a series of interactive widgets with D3.js",
+          "• Data wrangling objectives were expedited by leveraging Python scripts and Pandas for batch CSV file conversion."
         ]
       },
       {
@@ -152,8 +159,8 @@
         "title": "Machine Learning",
         "years": "November 2019",
         "description": [
-          "● Trained a Convolutional Neural Network for supervised learning of common objects using the CIFAR-10 dataset, with an averaged F1 score of 0.73.",
-          "● Developed an alternative solution with transfer learning using the VGG16 model, providing a training speedup of 4X."
+          "• Trained a Convolutional Neural Network for supervised learning of common objects using the CIFAR-10 dataset, with an averaged F1 score of 0.73.",
+          "• Developed an alternative solution with transfer learning using the VGG16 model, providing a training speedup of 4X."
         ]
       },
       {
@@ -161,8 +168,8 @@
         "title": "Machine Learning",
         "years": "October 2019",
         "description": [
-          "● Used the KDD 1999 Cup dataset to train a predictive model that detects fraudulent network connections.",
-          "● Achieved a 99.85% accuracy rating with a convolutional neural network built with TensorFlow and Pandas."
+          "• Used the KDD 1999 Cup dataset to train a predictive model that detects fraudulent network connections.",
+          "• Achieved a 99.85% accuracy rating with a convolutional neural network built with TensorFlow and Pandas."
         ]
       }
     ],
@@ -233,7 +240,7 @@
         "image": "postgres.svg"
       },
       {
-        "title": "aws",
+        "title": "AWS",
         "image": "aws.svg"
       },
       {
