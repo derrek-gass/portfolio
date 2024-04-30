@@ -140,6 +140,54 @@
 
 
 /*
+ * Fira Code
+================================================================================ */   
+@font-face {
+    font-family: 'fira-code-bold';
+    src: url('fonts/firacode/FiraCode-Bold.woff') format('woff'),
+         url('fonts/firacode/FiraCode-Bold.woff2') format('woff2'),
+         url('fonts/firacode/FiraCode-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira-code-light';
+    src: url('fonts/firacode/FiraCode-Light.woff') format('woff'),
+         url('fonts/firacode/FiraCode-Light.woff2') format('woff2'),
+         url('fonts/firacode/FiraCode-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira-code-medium';
+    src: url('fonts/firacode/FiraCode-Medium.woff') format('woff'),
+         url('fonts/firacode/FiraCode-Medium.woff2') format('woff2'),
+         url('fonts/firacode/FiraCode-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira-code-regular';
+    src: url('fonts/firacode/FiraCode-Regular.woff') format('woff'),
+         url('fonts/firacode/FiraCode-Regular.woff2') format('woff2'),
+         url('fonts/firacode/FiraCode-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira-code-semibold';
+    src: url('fonts/firacode/FiraCode-SemiBold.woff') format('woff'),
+         url('fonts/firacode/FiraCode-SemiBold.woff2') format('woff2'),
+         url('fonts/firacode/FiraCode-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
  * FIXED for Font-Face Chrome Rendering
 ================================================================================ */
 @media screen and (-webkit-min-device-pixel-ratio:0) {

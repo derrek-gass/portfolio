@@ -38,7 +38,7 @@ header {
    position: relative;
    height: 100vh;
    min-height: 100vh;
-   /* background: url(../images/crab_nebula.png) no-repeat top center; */
+   /* background: url(../images/crab_nebula.jpg) no-repeat top center; */
    background-size: cover !important;
    background-position: center;
 	-webkit-background-size: cover !important;

@@ -15,7 +15,7 @@ const Scene = ({ vertex, fragment }) => {
         let time = state.clock.getElapsedTime();
 
         // start from 20 to skip first 20 seconds ( optional )
-        meshRef.current.material.uniforms.iTime.value = time + 20;
+        meshRef.current.material.uniforms.iTime.value = time + 59;
     });
 
     // Define the shader uniforms with memoization to optimize performance
@@ -23,11 +23,11 @@ const Scene = ({ vertex, fragment }) => {
         () => ({
             iTime: {
                 type: "f",
-                value: 0.12,
+                value: 0.11,
             },
             iResolution: {
                 type: "v2",
-                value: new THREE.Vector2(24, 8),
+                value: new THREE.Vector2(32, 9),
             },
             iChannel0: {
                 type: "t",
@@ -39,7 +39,7 @@ const Scene = ({ vertex, fragment }) => {
 
     return (
         <mesh ref={meshRef}>
-            <planeGeometry args={[24, 8]} />
+            <planeGeometry args={[32, 9]} />
             <shaderMaterial
                 uniforms={uniforms}
                 vertexShader={vertex}
@@ -93,6 +93,7 @@ function Header(props) {
 				<p className="scrolldown">
 					<a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
 				</p>
+				// TODO: Make a style for this
 				<Canvas style={{height: "100vh", zIndex: -1, position: "absolute", top: 0, left: 0}}>
 					<Scene vertex={vertex} fragment={fragment} />
         </Canvas>
