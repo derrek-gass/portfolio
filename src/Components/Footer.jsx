@@ -17,7 +17,7 @@ class Footer extends Component {
                             {networks}
                         </ul>
                         <ul className="copyright">
-                            <li>&copy; Copyright 2020 {company}</li>
+                            <li>&copy; Copyright 2024 {company}</li>
                         </ul>
                     </div>
                     <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>

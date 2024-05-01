@@ -67,14 +67,14 @@ void main() {
  //v = 1.0 - length(uv) * 1.3;
 
  // a bit of camera movement
-    uv *= 0.6 + sin(iTime * 0.1) * 0.4;
-    uv = rotate(uv, sin(iTime * 0.3) * 1.0);
-    uv += iTime * 0.4;
+    uv *= 0.6 + sin(iTime * 0.1) * 0.2;
+    uv = rotate(uv, sin(iTime * 0.15) * 1.0);
+    uv += iTime * 0.2;
 
  // add some noise octaves
     float a = 0.6, f = 1.0;
 
-    for(int i = 0; i < 3; i++) // 4 octaves also look nice, its getting a bit slow though
+    for(int i = 0; i < 4; i++) // 4 octaves also look nice, its getting a bit slow though
     {
         float v1 = voronoi(uv * f + 5.0);
         float v2 = 0.0;
@@ -107,11 +107,11 @@ void main() {
     }
 
  // slight vignetting
-    v *= exp(-0.6 * length(suv)) * 1.2;
+    v *= exp(-0.75 * length(suv)) * 1.2;
 
  // use texture channel0 for color? why not.
     vec3 cexp = texture(iChannel0, uv * 0.001).xyz * 3.0 + texture(iChannel0, uv * 0.01).xyz;//vec3(1.0, 2.0, 4.0);
-    cexp *= 1.4;
+    cexp *= 1.3;
 
  // old blueish color set
  //vec3 cexp = vec3(6.0, 4.0, 2.0);

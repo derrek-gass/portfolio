@@ -93,7 +93,6 @@ function Header(props) {
 				<p className="scrolldown">
 					<a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
 				</p>
-				// TODO: Make a style for this
 				<Canvas style={{height: "100vh", zIndex: -1, position: "absolute", top: 0, left: 0}}>
 					<Scene vertex={vertex} fragment={fragment} />
         </Canvas>

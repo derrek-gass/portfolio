@@ -1,9 +1,5 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
+/* =====================================================================
 
    TOC:
    a. General Styles
@@ -38,10 +34,6 @@ header {
    position: relative;
    height: 100vh;
    min-height: 100vh;
-   /* background: url(../images/crab_nebula.jpg) no-repeat top center; */
-   background-size: cover !important;
-   background-position: center;
-	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -54,14 +46,6 @@ header:before {
    height: 100%;
 }
 
-header .background-image {
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   left: 0;
-   height: 100vh;
-   width: 100vw;
-}
 header .banner {
    display: inline-block;
    vertical-align: middle;
@@ -75,10 +59,10 @@ header .banner {
    from {
      text-shadow:
      0 0 00px #fff,
-     0 0 10px #6bffff,
-     0 0 20px #31beff,
-     0 0 40px #1da5ff,
-     0 0 50px #009edd;
+     0 0 05px #6bffff,
+     0 0 10px #31f1ff,
+     0 0 15px #1fced4,
+     0 0 20px #11ABB0;
    }
    to {
      text-shadow:
@@ -91,17 +75,17 @@ header .banner-text {
    text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
 }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'fira-code-light', 'opensans-bold', sans-serif;
    color: #fff;
    text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   letter-spacing: -6px;
+   margin: 0 auto 12px auto;
    -webkit-animation: glow 3s ease-in-out infinite alternate;
    -moz-animation: glow 3s ease-in-out infinite alternate;
    animation: glow 3s ease-in-out infinite alternate;
 }
 header .banner-text h3 {
-   font: 20px/2.0em 'librebaskerville-regular', serif;
+   font: 20px/2.0em 'fira-code-light', 'librebaskerville-regular', serif;
    color: #c2c2c2;
    margin: 0 auto;
    width: 70%;
@@ -148,10 +132,10 @@ header .scrolldown a {
    color: #fff;
    border-radius: 100%;
 
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
+   -webkit-transition: all .5s ease-in-out;
+   -moz-transition: all .5s ease-in-out;
+   -o-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
@@ -214,8 +198,10 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li a:active { 
+   background-color: transparent !important; 
+}
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -233,12 +219,12 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'fira-code-light', 'opensans-bold', sans-serif;
    color: #fff;
 }
 
 #about .subheader {
-   font: 14px/20px 'opensans-bold', sans-serif;
+   font: 14px/20px 'fira-code-semibold', 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 8px;
 }
@@ -250,13 +236,15 @@ ul#nav li.current a { color: #F06000; }
 
 #about .profile-pic {
    position: relative;
-   width: 170px;
-   height: 170px;
-   border-radius: 100%;
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   vertical-align: center;
 
 }
 #about .description {
    width: 75%;
+   font-family: 'fira-code-regular', 'opensans-regular', sans-serif;
 }
 #about .contact-details { width: 50%; }
 #about .download {
@@ -283,7 +271,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #ffffee;
    padding-top: 90px;
    padding-bottom: 48px;
    overflow: hidden;
@@ -295,10 +283,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus{ color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -307,7 +295,12 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'fira-code-bold', 'opensans-bold', sans-serif;
+}
+
+
+#resume p {
+   margin: 0 0 10px 0;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -317,118 +310,32 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 27.5px;
 }
 #resume .awards {
-   font: 14px/22px 'opensans-semibold', sans-serif;
+   font: 14px/22px 'fira-code-bold', 'opensans-semibold', sans-serif;
    font-style: italic;
    margin-top: -8px;
    margin-bottom: 24px;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'fira-code-semibold', 'librebaskerville-italic', serif;
+   font-style: italic;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 #resume .description {
-   font: 15px/24px 'opensans-regular', serif;
+   font: 15px/24px 'fira-code-regular', 'opensans-regular', serif;
    margin-bottom: 9px;
    margin-top: 9px;
+   line-height: 1;
 }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'fira-code-regular', 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-
-/*
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
-}
-
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -440,7 +347,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 15px/24px 'fira-code-semibold','opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -514,11 +421,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 14px/21px 'fira-code-semibold','opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 12px/18px 'fira-code-light','opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -544,17 +451,17 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
 .popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
+	font: 14px/24px 'fira-code-regular','opensans-regular', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
+   font: 11px/21px 'fira-code-light','opensans-light', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -571,12 +478,12 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .link-box a {
    color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
+	font: 11px/21px 'fira-code-semibold','opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #11ABB0; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -611,7 +518,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -631,7 +538,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 12px;
 }
 #call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
+   font: 28px/36px 'fira-code-semibold', 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -654,7 +561,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif;
+	font-family: 'fira-code-semibold', 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -684,7 +591,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 12px/12px 'opensans-bold', sans-serif;
+   font: 12px/12px 'fira-code-semibold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -711,10 +618,11 @@ call-to-action .button {
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family: 'fira-code-regular', 'librebaskerville-italic', serif;
+   font-style: italic;
    padding: 0;
    font-size: 18px;
-   line-height: 36px;
+   line-height: 28px;
    color: #cecece
 }
 #testimonials blockquote cite {
@@ -834,7 +742,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'fira-code-semibold','opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -853,12 +761,12 @@ call-to-action .button {
 }
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 16px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 18px/36px 'fira-code-light', 'opensans-light', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -867,7 +775,7 @@ call-to-action .button {
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -948,7 +856,7 @@ call-to-action .button {
    display: block;
 }
 #twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
+   font: 13px/36px 'fira-code-regular', 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
 }
@@ -985,7 +893,7 @@ footer .copyright li {
    display: inline;
 }
 footer .copyright li:before {
-    content: "\2022";
+    content: "\2024";
     padding-left: 10px;
     padding-right: 10px;
     color: #095153;
@@ -1005,7 +913,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #00d4f0;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1036,7 +944,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -1049,7 +957,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #badges h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'fira-code-semibold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -1060,10 +968,11 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #badges h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'fira-code-semibold', 'opensans-bold', sans-serif;
 }
 #badges .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'fira-code-light', 'librebaskerville-italic', serif;
+   font-style: italic;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -1175,12 +1084,12 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .badges-item .badges-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 14px/21px 'fira-code-semibold', 'opensans-bold', sans-serif;
    color: #fff;
 }
 
 .badges-item .badges-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 12px/18px 'fira-code-light', 'opensans-light', sans-serif;
    color: #c6c7c7;
    padding-bottom: 9px;
 }

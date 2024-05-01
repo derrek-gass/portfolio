@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 80px/1.1em 'fira-code-regular', 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,11 +29,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 78px/1.1em 'fira-code-bold', 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'fira-code-regular', 'librebaskerville-regular', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -42,7 +42,7 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'opensans-bold', sans-serif;
+      font: 11px 'fira-code-bold', 'opensans-bold', sans-serif;
       letter-spacing: 1.5px;
    }
 
@@ -59,14 +59,14 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume h1 { font: 16px/24px 'fira-code-bold', 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
    /* Badges Section
    /* ----------------------------------------------------------------- */
    #badges-wrapper .columns { margin-bottom: 20px; }
    .popup-modal {	max-width: 85%; }
-   #badges h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #badges h1 { font: 16px/24px 'fira-code-bold', 'opensans-bold', sans-serif; }
    #badges.main-col { padding-right: 5%; }   
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -93,7 +93,7 @@
       font-size: 66px;
       line-height: 66px;
    }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+   #contact .section-head p.lead { font: 17px/33px 'fira-code-light', opensans-light, sans-serif; }
 
 
 }
@@ -106,7 +106,7 @@
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
-      font: 12px 'opensans-bold', sans-serif;
+      font: 12px 'fira-code-bold', 'opensans-bold', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;  
       width: auto;
@@ -118,7 +118,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #00becc;
 		position: relative;
       border: none;
       float: right;
@@ -197,9 +197,9 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 68px/1.1em 'fira-code-regular', 'opensans-bold', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 16px/1.9em 'fira-code-regular', 'librebaskerville-regular', serif;
       width: 85%;
    }
    header .banner-text hr {
@@ -259,7 +259,7 @@
    /* ----------------------------------------------------------------- */
    #call-to-action { text-align: center; }
    #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
+      font: 16px/24px 'fira-code-bold', 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -279,7 +279,7 @@
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
    #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
+      font: 16px/24px 'fira-code-bold', 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -304,7 +304,7 @@
    #contact { padding-bottom: 66px; }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;            
+      font: 16px/24px 'fira-code-bold', 'opensans-bold', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -368,11 +368,11 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 40px/1.1em 'fira-code-bold', 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 14px/1.9em 'fira-code-regular', 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
   
