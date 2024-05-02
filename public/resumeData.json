@@ -7,26 +7,31 @@
     "bio": [
       {
         "key": "headline",
-        "text": "Software Engineer | Java, React, TypeScript"
+        "focus": "Software Engineer  |",
+        "text": "Java, React, TypeScript"
       },
       {
         "key": "frontend",
-        "text": "• Frontend — JavaScript, TypeScript, React, Node, HTML, CSS, Sass, Bootstrap, Tailwind, jQuery, Jest, Selenium"
+        "focus": "• Frontend  —",
+        "text": "JavaScript, TypeScript, HTML, CSS, React, NextJS, Node, Sass, Bootstrap, Tailwind, jQuery, Jest, Selenium"
       },
       {
         "key": "backend",
-        "text": "• Backend — Java, Rust, Python, Bash, SQL, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
+        "focus": "• Backend  —",
+        "text": "Java, Rust, Python, Bash, SQL, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
       },
       {
         "key": "devOps",
-        "text": "• DevOps — Docker, Kubernetes, AWS, Grafana, Git, GitLab, JIRA, Linux"
+        "focus": "• DevOps  —",
+        "text": "Docker, Kubernetes, AWS, Grafana, Git, GitLab, JIRA, Linux"
       },
       {
         "key": "libraries",
-        "text": "• Libraries & Tooling — Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, Vite, BeautifulSoup"
+        "focus": "• Libraries  —",
+        "text": "Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, ReactThreeFiber, Vite, BeautifulSoup"
       }
     ],
-    "email": "derrekgass@gmail.com",
+    "email": "derrek@derrekgass.com",
     "address": {
       "city": "Campbell",
       "state": "CA"
@@ -47,7 +52,7 @@
       },
       {
         "name": "E-Mail",
-        "url": "mailto:derrekgass@gmail.com",
+        "url": "mailto:derrek@derrekgass.com",
         "className": "fa fa-envelope"
       }
     ]
@@ -195,10 +200,6 @@
   "badges": {
     "badges": [
       {
-        "title": "React",
-        "image": "react.svg"
-      },
-      {
         "title": "JavaScript",
         "image": "logo-javascript.svg"
       },
@@ -215,6 +216,14 @@
         "image": "CSS3.svg"
       },
       {
+        "title": "React",
+        "image": "react.svg"
+      },
+      {
+        "title": "Next",
+        "image": "nextjs.svg"
+      },
+      {
         "title": "NodeJS",
         "image": "node.svg"
       },
@@ -223,18 +232,17 @@
         "image": "java.svg"
       },
       {
-        "title": "Spring",
-        "image": "spring.svg"
-      },
-      {
         "title": "Rust",
         "image": "rust.svg"
       },
       {
         "title": "Python",
         "image": "python.svg"
+      },      
+      {
+        "title": "Spring",
+        "image": "spring.svg"
       },
-
       {
         "title": "PostgreSql",
         "image": "postgres.svg"
@@ -267,6 +275,17 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Secret Grotto Sound",
+        "category": "Music Production & Sound Design Blog written with Next.js and Sanity CMS",
+        "image": "secretgrotto_blog.jpg",
+        "url": "https://www.secretgrottosound.com/"
+      },{
+        "title": "JCPenney Rewards",
+        "category": "Landing Page ReLaunch Campaign",
+        "image": "JCP-Rewards.jpg",
+        "url": "http://www.jcpenney.com/rewards"
+      },
       {
         "title": "LearnJS",
         "category": "A Serverless Quiz Application",
