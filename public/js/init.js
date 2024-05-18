@@ -19,15 +19,15 @@ jQuery(document).ready(function ($) {
 ------------------------------------------------------ */
 
    $('.smoothscroll').on('click',function (e) {
-	    e.preventDefault();
-	    var target = this.hash,
-	    $target = $(target);
+	   e.preventDefault();
+	   var target = this.hash,
+	   $target = $(target);
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 800, 'swing', function () {
-	        window.location.hash = target;
-	    });
+	   $('html, body').stop().animate({
+	      'scrollTop': $target.offset().top
+	   }, 800, 'swing', function () {
+	      window.location.hash = target;
+	   });
 	});
 
 
@@ -66,8 +66,8 @@ jQuery(document).ready(function ($) {
    $('header').css({ 'height': $(window).height() });
    $(window).on('resize', function() {
 
-        $('header').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
+      $('header').css({ 'height': $(window).height() });
+      $('body').css({ 'width': $(window).width() })
    });
 
 

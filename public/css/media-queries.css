@@ -119,7 +119,8 @@
 		height: 48px;
 		text-align: left;
 		background-color: #00becc;
-		position: relative;
+		position: absolute;
+      z-index: 1000;
       border: none;
       float: right;
 
@@ -165,7 +166,10 @@
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
-	   display: block;
+	   display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: center;
       width: 100vw;
       height: 100vh;
       padding: 30px 20px 48px 20px;
@@ -181,8 +185,6 @@
       margin: 0 auto; 
       padding: 0 4%;           
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
-      border-bottom-style: dotted; 
    }
   
    ul#nav li a {  
