@@ -151,24 +151,28 @@
 
    /* hide menu panel */
    #nav-wrap ul#nav {
+      width: auto;
       height: auto;
 		display: none;
       clear: both;
-      width: auto; 
       float: right;     
-
-      position: relative;
-      top: 12px;
+      opacity: 0;
+      transition: opacity 0.5s;
+      position: absolute;
+      top: 0;
       right: 0;
    }
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
 	   display: block;
+      width: 100vw;
+      height: 100vh;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
-      margin: 0 30px;
+      background: #007780;
       clear: both;
+      opacity: 1;
+      transition: opacity 0.5s;
    }
 
    ul#nav li {
@@ -184,7 +188,8 @@
    ul#nav li a {  
       display: block;    
       margin: 0;
-      padding: 0;      
+      padding: 0;     
+      text-align: center; 
       margin: 12px 0; 
       line-height: 16px; /* reset line-height from 48px */
       border: none;

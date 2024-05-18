@@ -3,8 +3,7 @@
 /* Init JS
 /*
 -----------------------------------------------------------------------------------*/
-
- jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
 /*----------------------------------------------------*/
 /* FitText Settings
@@ -21,7 +20,6 @@
 
    $('.smoothscroll').on('click',function (e) {
 	    e.preventDefault();
-
 	    var target = this.hash,
 	    $target = $(target);
 
@@ -103,13 +101,11 @@
 ------------------------------------------------------*/
 
     $('.item-wrap a').magnificPopup({
-
        type:'inline',
        fixedContentPos: false,
        removalDelay: 200,
        showCloseBtn: false,
        mainClass: 'mfp-fade'
-
     });
 
     $(document).on('click', '.popup-modal-dismiss', function (e) {
@@ -132,7 +128,9 @@
       animationSpeed: 600,
       randomize: false,
    });
+
 });
+
 
 function jQuery(document) {
    throw new Error("Function not implemented.");
