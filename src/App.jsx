@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
@@ -53,6 +54,8 @@ function App() {
             <Portfolio data={resumeData.portfolio} />
             <Testimonials data={resumeData.testimonials} />
             <Footer data={resumeData.main} />
+            <SpeedInsights/> 
+
         </div>
     );
 }
