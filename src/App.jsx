@@ -3,6 +3,7 @@ import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from '@vercel/analytics/react';
 import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
@@ -55,7 +56,7 @@ function App() {
             <Testimonials data={resumeData.testimonials} />
             <Footer data={resumeData.main} />
             <SpeedInsights/> 
-
+            <Analytics />
         </div>
     );
 }

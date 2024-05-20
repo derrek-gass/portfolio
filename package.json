@@ -13,6 +13,7 @@
         "@testing-library/user-event": "^14.4.3",
         "@types/jquery": "^3.5.19",
         "@types/lodash": "^4.14.198",
+        "@vercel/analytics": "^1.2.2",
         "@vercel/speed-insights": "^1.0.10",
         "axios": "^1.6.5",
         "caniuse-lite": "^1.0.30001620",
