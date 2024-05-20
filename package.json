@@ -3,7 +3,7 @@
     "version": "0.2.0",
     "private": true,
     "engines": {
-        "node": "21.1.0"
+        "node": "20.x"
     },
     "dependencies": {
         "@react-three/drei": "^9.96.1",

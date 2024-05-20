@@ -20,21 +20,21 @@ jQuery(document).ready(function ($) {
   /* Smooth Scrolling
 ------------------------------------------------------ */
 
-  $('.smoothscroll').on('click', function (e) {
+  $('.smoothscroll').on('click', (e) => {
     e.preventDefault();
-    var target = this.hash,
-      $target = $(target);
+    var target = this.target.hash;
 
     $('html, body')
       .stop()
       .animate(
         {
-          scrollTop: $target.offset().top,
+          // just need to get this target to be a string
+          scrollTop: $(`${target}`).offset().top,
         },
-        500,
+        800,
         'swing',
         function () {
-          window.location.hash = target;
+          window.location.hash = `${target}`;
         }
       );
   });
