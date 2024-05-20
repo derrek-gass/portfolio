@@ -56,7 +56,7 @@ time, mark, audio, video {
    font-size: 100%;
    vertical-align: baseline;
    background: transparent;
-   scroll-behavior: smooth;
+   /* scroll-behavior: smooth; */
 }
 
 article,aside,details,figcaption,figure,
