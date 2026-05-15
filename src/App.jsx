@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";

@@ -1,7 +1,6 @@
 
 import { useMemo, useRef } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useTexture } from "@react-three/drei";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import * as THREE from "three";
 
 
@@ -9,8 +8,8 @@ import * as THREE from "three";
 const Scene = ({ vertex, fragment }) => {
     const meshRef = useRef();
 
-    // Load the noise texture and update the shader uniform
-    const noiseTexture = useTexture("/images/noise2.png");
+	// Load the noise texture and update the shader uniform
+	const noiseTexture = useLoader(THREE.TextureLoader, "/images/noise2.png");
     useFrame((state) => {
         let time = state.clock.getElapsedTime();
 
