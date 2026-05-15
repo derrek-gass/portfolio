@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -20,9 +19,6 @@ function App() {
 
     const [vertex, setVertex] = useState("");
     const [fragment, setFragment] = useState("");
-
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
 
     useEffect(() => {
         axios.get("/shaders/vertexShader.glsl").then((res) => setVertex(res.data));
@@ -55,7 +51,7 @@ function App() {
             <Portfolio data={resumeData.portfolio} />
             <Testimonials data={resumeData.testimonials} />
             <Footer data={resumeData.main} />
-            <SpeedInsights/> 
+            <SpeedInsights/>
             <Analytics />
         </div>
     );
