@@ -1,0 +1,331 @@
+{
+  "main": {
+    "name": "Derrek Gass",
+    "occupation": "Software Engineer",
+    "description": "with 5+ years' of experience in Java, React, and TypeScript",
+    "image": "portrait_1mb.png",
+    "bio": [
+      {
+        "key": "headline",
+        "focus": "Software Engineer  |",
+        "text": "Java, React, TypeScript"
+      },
+      {
+        "key": "frontend",
+        "focus": "• Frontend  —",
+        "text": "JavaScript, TypeScript, HTML, CSS, React, NextJS, Node, Sass, Bootstrap, Tailwind, jQuery, Jest, Selenium"
+      },
+      {
+        "key": "backend",
+        "focus": "• Backend  —",
+        "text": "Java, Rust, Python, Bash, SQL, PostgreSQL, Spring, Spring Boot, Flyway, Swagger, JDBI, Hibernate"
+      },
+      {
+        "key": "devOps",
+        "focus": "• DevOps  —",
+        "text": "Docker, Kubernetes, AWS, Grafana, Git, GitLab, JIRA, Linux"
+      },
+      {
+        "key": "libraries",
+        "focus": "• Libraries  —",
+        "text": "Lodash, Axios, Jackson, Dask, Pandas, Shadertoy, ThreeJS, D3, ReactThreeFiber, Vite, BeautifulSoup"
+      }
+    ],
+    "email": "derrek@derrekgass.com",
+    "address": {
+      "city": "Campbell",
+      "state": "CA"
+    },
+    "company": "Lambda Phase Systems LLC",
+    "website": "lambdaphase.com/",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1WVZH10UBqDf3hWdO8bdo8RsTQjG_F1ZY",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/derrekgass/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/derrek-gass",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "E-Mail",
+        "url": "mailto:derrek@derrekgass.com",
+        "className": "fa fa-envelope"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "CSU, Sacramento",
+        "degree": "B.S. Computer Science & Engineering",
+        "graduated": "2020",
+        "awards": ["3.3 GPA", "Dean's List (3x)"],
+        "description": [
+          "Software Engineering",
+          "Programming Languages",
+          "Data Structures & Algorithms",
+          "Computer Architecture",
+          "Theory of Computation",
+          "Formal Languages",
+          "Operating Systems",
+          "Distributed Systems",
+          "Computer Modeling",
+          "Computer Networks",
+          "Compiler Construction",
+          "AI & Machine Learning"
+        ]
+      }
+    ],
+    "work": [
+      {
+        "company": "JCPenney",
+        "title": "Digital Operations Sr. Specialist",
+        "years": "March 2024 - Present",
+        "description": [
+          "• Spearheaded a major campaign initiative to drive rewards program signups, and delivered a 7x increase in page visits, and an increase of $120k per day in revenue share attributable to SEO and page optimizations with pixel-perfect execution.",
+          "• Working cross-functionally to open communication channels and to modernize our design system and site architecture",
+          "• Reduced to-market production time for editorial pages from 14 to 7 weeks within the first month of employment"
+        ]
+      },
+      {
+        "company": "Northwestern Mutual",
+        "title": "Full Stack Software Engineer",
+        "years": "March 2021 - February 2023",
+        "description": [
+          "• Developed enhancements to a microservices web application for credit monitoring and research",
+          "• Implemented a batch processing tool for corporate actions, decreasing manual processing time by 72 hours per month",
+          "• Optimized the performance of data visualization algorithms, leading to a 300ms reduction in render time",
+          "• Developed and maintained ETL processes ingest data into Aurora Postgres, Redshift, and AWS S3",
+          "• Implemented data export to safeguard existing business workflows, resulting in a 30% reduction in onboarding time",
+          "• Implemented a daily news feed resulting in a 40% increase in cross-departmental user engagement",
+          "• Deployed real-time application metrics and error logging using Grafana with notifications to Slack and Email"
+        ]
+      },
+      {
+        "company": "Flashpoint Learning",
+        "title": "Software Engineer",
+        "years": "January 2019 - December 2019",
+        "description": [
+          "• Collaborated with cross-functional teams to gather requirements, design, and develop a web application for publishing educational content and tracking student performance",
+          "• Designed and implemented the frontend interface in React integrated with the Java Spring-based backend API",
+          "• Set up CI/CD pipelines using GitLab with automatic deployment to AWS and health metrics on CloudWatch",
+          "• Developed unit and integration testing with Jest and JUnit, increasing code coverage to 95%"
+        ]
+      },
+      {
+        "company": "DSPM Technologies",
+        "title": "Web Developer",
+        "years": "June 2018 - August 2018",
+        "description": [
+          "• Led the design, documentation, and delivery of a Canvas LMS plugin that automatically tracks student attendance",
+          "• Leveraged Kotlin and React to build cross-platform applications using GPS location to detect network proximity",
+          "• Produced admin views integrated directly within the canvas platform with data export using Google Sheets API"
+        ]
+      },
+      {
+        "company": "Hi Delivery",
+        "title": "Frontend Developer",
+        "years": "April 2016 - August 2018",
+        "description": [
+          "• Bootstrapped a feature-rich application for business owners to manage Ecommerce operations",
+          "• Created configurable components in JavaScript and React for business owners to customize storefronts",
+          "• Produced dashboards for application metrics to support site reliability and ensure a 99.99% uptime"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "company": "Supply Chain Management Service",
+        "title": "Recommendation Engine",
+        "years": "September 2024 - Present",
+        "description": [
+          "• Developing a service for supply chain management",
+          "• Used to track orders, production, and operational logistics",
+          "• A recommendation engine identifies bottlenecks and possible solutions"
+        ]
+      },
+      {
+        "company": "Interactive Visualization of the Indigent Population",
+        "title": "Statistical Analysis",
+        "years": "December 2019",
+        "description": [
+          "• An interactive data exploration of the Department of Housing and Urban Development`s annual Point-In-Time Homelessness count.",
+          "• Implemented a series of interactive widgets with D3.js",
+          "• Data wrangling objectives were expedited by leveraging Python scripts and Pandas for batch CSV file conversion."
+        ]
+      },
+      {
+        "company": "Image Classification Model",
+        "title": "Machine Learning",
+        "years": "November 2019",
+        "description": [
+          "• Trained a Convolutional Neural Network for supervised learning of common objects using the CIFAR-10 dataset, with an averaged F1 score of 0.73.",
+          "• Developed an alternative solution with transfer learning using the VGG16 model, providing a training speedup of 4X."
+        ]
+      },
+      {
+        "company": "Network Anomaly Detector",
+        "title": "Machine Learning",
+        "years": "October 2019",
+        "description": [
+          "• Used the KDD 1999 Cup dataset to train a predictive model that detects fraudulent network connections.",
+          "• Achieved a 99.85% accuracy rating with a convolutional neural network built with TensorFlow and Pandas."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Data Structures",
+        "level": "75%"
+      },
+      {
+        "name": "Algorithms",
+        "level": "85%"
+      },
+      {
+        "name": "System Architecture",
+        "level": "75%"
+      },
+      {
+        "name": "UI/UX",
+        "level": "90%"
+      }
+    ]
+  },
+  "badges": {
+    "badges": [
+      {
+        "title": "JavaScript",
+        "image": "logo-javascript.svg"
+      },
+      {
+        "title": "TypeScript",
+        "image": "ts.svg"
+      },
+      {
+        "title": "HTML",
+        "image": "HTML5.svg"
+      },
+      {
+        "title": "CSS",
+        "image": "CSS3.svg"
+      },
+      {
+        "title": "React",
+        "image": "react.svg"
+      },
+      {
+        "title": "Next",
+        "image": "nextjs.svg"
+      },
+      {
+        "title": "NodeJS",
+        "image": "node.svg"
+      },
+      {
+        "title": "Java",
+        "image": "java.svg"
+      },
+      {
+        "title": "Rust",
+        "image": "rust.svg"
+      },
+      {
+        "title": "Python",
+        "image": "python.svg"
+      },      
+      {
+        "title": "Spring",
+        "image": "spring.svg"
+      },
+      {
+        "title": "PostgreSql",
+        "image": "postgres.svg"
+      },
+      {
+        "title": "AWS",
+        "image": "aws.svg"
+      },
+      {
+        "title": "Docker",
+        "image": "docker.svg"
+      },
+      {
+        "title": "Kubernetes",
+        "image": "kubernetes.svg"
+      },
+      {
+        "title": "git",
+        "image": "git.svg"
+      },
+      {
+        "title": "Jira",
+        "image": "jira.svg"
+      },
+      {
+        "title": "D3.js",
+        "image": "d3.svg"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Secret Grotto Sound",
+        "category": "Music Production & Sound Design Blog written with Next.js and Sanity CMS",
+        "image": "secretgrotto_blog.jpg",
+        "url": "https://www.secretgrottosound.com/"
+      },{
+        "title": "JCPenney Rewards",
+        "category": "Landing Page ReLaunch Campaign",
+        "image": "JCP-Rewards.jpg",
+        "url": "http://www.jcpenney.com/rewards"
+      },
+      {
+        "title": "LearnJS",
+        "category": "A Serverless Quiz Application",
+        "image": "learnjs.jpg",
+        "url": "http://learnjs.derrekg.com.s3-website-us-west-2.amazonaws.com/"
+      },
+      {
+        "title": "Indigent Population Statistics - An Exploration with D3.js",
+        "category": "Interactive Exploration of Homelessness by state",
+        "image": "d3-homeless.jpg",
+        "url": "https://derrek-gass.github.io/homeless-map/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonial": [
+      {
+        "text": "Derrek is a fast learner who is passionate about a plethora of technologies. He is not afraid of taking on new toolsets in order to better tackle the specific problem he is working on. Being able to choose the right tool for the job while also being willing learn new tech to do it right is a highly desirable quality in a software engineer.",
+        "user": "Josh Earlenbaugh"
+      },
+      {
+        "text": "It is quite rare to come across an outstanding and hardworking talent such as Derrek. I have had the pleasure of working with and learning from Derrek for over three years, collaborating on several large team projects. Derrek's ability to find inventive solutions and his immense drive to tackle problems served as both inspiring motivation for the team and as an integral part to increasing the team's productivity. Derrek would be a valuable asset for any team.",
+        "user": "Alexander Lee"
+      },
+      {
+        "text": "Derrek is a passionate programmer with expertise in RESTful web services, cloud application deployment, and is always excited to learn new frameworks and technologies.",
+        "user": "Daniel Scrivano"
+      },
+      {
+        "text": "Derrek and I attended CSUS together for 2 years and worked on a variety of projects together. Consistently, Derrek impressed me with not only the breadth of knowledge that he possessed, but also his ability to expound upon a variety of technologies and frameworks. Be it backend technologies, front end web frameworks, or dev-ops pipelines, Derrek always seemed to have something extremely valuable to contribute to the conversation. Derrek has very strong technical capabilities, but one of his greatest strengths is his easy-to-get-along-with nature and sociability. Any team that chooses to take Derrek on will be bolstered by his eager attitude towards learning new things and his bright personality.",
+        "user": "Dimitrios Papageorgacopoulos"
+      },
+      {
+        "text": "Derrek and I had 3 classes together (Data Visualization, Intelligent Systems, and Computing Theory & Programming Languages) which involved group projects. In these group projects, Derrek was always the one doing the heavy lifting on the project. He took initiative, and set up the environment, where all we’d have to do is a “git pull.” He would set the roadmap and expectations of the projects, and break it down to digestible chunks for us to contribute features to. Derrek is not only technically skilled, he is also able to articulate the design of our projects in our class presentations, and in each project we’ve done together, we had received A’s. Derrek is also pleasant to work with, and even though we were the same year in school, he was ahead of me technically, and I see him as a mentor. If you want a more in-depth opinion on Derrek, contact me on LinkedIn.",
+        "user": "Jimmy Le"
+      },
+      {
+        "text": "Derrek is highly intelligent with a great eye for detail and understanding of not just the part of a project he is working on, but how that part fits together and integrates with the project as a whole. He is very knowledgeable when it comes to systems design, and optimization and understands how to work well as a part of a team.",
+        "user": "Alex Gonzalez"
+      }
+    ]
+  }
+}
