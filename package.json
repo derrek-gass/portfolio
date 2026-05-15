@@ -6,14 +6,14 @@
         "node": "22.x"
     },
     "dependencies": {
-        "@react-three/drei": "^9.122.0",
-        "@react-three/fiber": "^8.18.0",
+        "@react-three/drei": "^10.0.0",
+        "@react-three/fiber": "^9.0.0",
         "@vercel/analytics": "^2.0.1",
         "@vercel/speed-insights": "^2.0.0",
         "axios": "^1.16.1",
         "jquery": "^3.7.1",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
         "react-router-dom": "^6.30.3",
         "three": "^0.184.0"
     },
@@ -37,13 +37,14 @@
         ]
     },
     "devDependencies": {
+        "@testing-library/dom": "^10.4.1",
         "@testing-library/jest-dom": "^6.9.1",
-        "@testing-library/react": "^14.3.1",
+        "@testing-library/react": "^16.3.2",
         "@testing-library/user-event": "^14.6.1",
         "@types/jquery": "^3.5.34",
         "@types/lodash": "^4.17.24",
-        "@types/react": "^18.3.28",
-        "@types/react-dom": "^18.3.7",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
         "@vitejs/plugin-react": "^4.0.0",
         "caniuse-lite": "^1.0.30001792",
         "jsdom": "^25.0.0",
