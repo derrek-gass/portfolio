@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import $ from "jquery";
 import "./App.css";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from '@vercel/analytics/react';
@@ -11,36 +10,22 @@ import Portfolio from './Components/Portfolio';
 import Testimonials from './Components/Testimonials';
 import Footer from './Components/Footer';
 
-import axios from "axios";
-
-
 function App() {
     const [resumeData, setResumeData] = useState({});
-
     const [vertex, setVertex] = useState("");
     const [fragment, setFragment] = useState("");
 
     useEffect(() => {
-        axios.get("/shaders/vertexShader.glsl").then((res) => setVertex(res.data));
-        axios.get("/shaders/fragmentShader.glsl").then((res) => setFragment(res.data));
-        getResumeData();
+        Promise.all([
+            fetch("/shaders/vertexShader.glsl").then(r => r.text()),
+            fetch("/shaders/fragmentShader.glsl").then(r => r.text()),
+            fetch("/resumeData.json").then(r => r.json()),
+        ]).then(([vert, frag, data]) => {
+            setVertex(vert);
+            setFragment(frag);
+            setResumeData(data);
+        }).catch(console.error);
     }, []);
-
-
-    const getResumeData = () => {
-        $.ajax({
-            url: "/resumeData.json",
-            dataType: "json",
-            cache: false,
-            success: function (data) {
-                setResumeData(data);
-            },
-            error: function (xhr, status, err) {
-                console.log(err);
-                alert(err);
-            },
-        });
-    };
 
     return (
         <div className="App">
