@@ -276,6 +276,48 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Riffr",
+        "category": "Interactive Guitar Fretboard Chart & Chord Diagram Builder",
+        "image": "riffr.jpg",
+        "url": "https://riffr.app/"
+      },
+      {
+        "title": "Polyrhythm Studio",
+        "category": "Metronome Web App for Visualizing & Playing Polymeter/Polyrhythm Patterns",
+        "image": "polyrhythm-studio.jpg",
+        "url": "https://polyrhythm-studio-six.vercel.app"
+      },
+      {
+        "title": "Church",
+        "category": "Guitar Practice Assist — Daily Session Tracking, Quality Ratings & Progress Mapping",
+        "image": "church.jpg",
+        "url": "https://church-five-swart.vercel.app"
+      },
+      {
+        "title": "Superfan",
+        "category": "Spotify Integrated Web App - Track your bands, discover associations, find best ticket prices",
+        "image": "superfan.jpg",
+        "url": "https://superfan-mm43lcjhj-derreks-projects-c277abf4.vercel.app/"
+      },
+      {
+        "title": "Rig",
+        "category": "Track your gear, manage your presets, sync your devices in one place",
+        "image": "rig.jpg",
+        "url": "https://rig-woad-seven.vercel.app/"
+      },
+      {
+        "title": "Dice Roller",
+        "category": "Custom Dice Sets for randomizing things",
+        "image": "dice-roller.jpg",
+        "url": "https://dice-roller-pi-ochre.vercel.app"
+      },
+      {
+        "title": "Budgeting Tool",
+        "category": "Personal Budget Management Web App",
+        "image": "glow-pretzel-budget.jpg",
+        "url": "https://glow-pretzel-budget.vercel.app/"
+      },  
+      {
         "title": "Secret Grotto Sound",
         "category": "Music Production & Sound Design Blog written with Next.js and Sanity CMS",
         "image": "secretgrotto_blog.jpg",
