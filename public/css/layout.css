@@ -417,6 +417,11 @@ ul#nav li.current a { color: #11ABB0; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
+   display: block;
+   width: 100%;
+   aspect-ratio: 4 / 3;
+   object-fit: cover;
+   object-position: top center;
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
